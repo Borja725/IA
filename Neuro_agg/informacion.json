@@ -1,0 +1,10 @@
+
+{
+    "path1": "C:\\Users\\bpellicer\\Downloads\\neuro_agg\\neuro_agg\\data_input\\202250_IPG_respidWebcam.xlsx",
+    "path2": "C:\\Users\\bpellicer\\Downloads\\neuro_agg\\neuro_agg\\data_input\\result_total_data.csv",
+    "read1": "data = pd.read_excel(file_path, sheet_name='sheet0')",
+    "read2": "data1 = pd.read_csv(file_path2)"
+}
+
+
+    

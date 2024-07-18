@@ -1,0 +1,1305 @@
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+ERROR:__main__:El fitxero no se ha encontrado
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+ERROR:__main__:El archivo informaion.json no se encontró.
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+ERROR:__main__:El archivo informacon.json no se encontró.
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+ERROR:__main__:Archivo no encontrado: C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\20250_IPG_respidWebcam.xlsx
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+ERROR:__main__:Se produjo un error: [Errno 13] Permission denied: 'C:\\Users\\bpellicer\\Downloads\\neuro_agg\\neuro_agg\\data_input'
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+ERROR:__main__:Archivo no encontrado: None
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+ERROR:__main__:Archivo no encontrado: None
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+ERROR:__main__:Archivo no encontrado: None
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+ERROR:__main__:Archivo no encontrado: None
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+ERROR:__main__:Archivo no encontrado: C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IG_respidWebcam.xlsx
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.csv'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:       Problem NameTest      User      Module  Image  ...  Performance     C1     C2  PerformancePolit True/False
+0            0     Test  51902788      BB0000      1  ...    39.376921   93.2  100.0         54.479499       True
+1            0     Test  51902788      BB0000      2  ...    37.831340   92.3  100.0         53.439067       True
+2            0     Test  51902788      BB0000      3  ...    41.271912   95.3  100.0         55.686115       True
+3            0     Test  51902788      BB0000      4  ...    38.316237  100.0  100.0         51.658315       True
+4            0     Test  51902788      BB0000      5  ...    39.384056  100.0  100.0         53.391698       True
+...        ...      ...       ...         ...    ...  ...          ...    ...    ...               ...        ...
+44529        0     Test  51912464  BV22500048     87  ...    48.676885   96.1   95.0         58.952925       True
+44530        0     Test  51912464  BV22500048     88  ...    45.893697   90.8  100.0         59.773544       True
+44531        0     Test  51912464  BV22500048     89  ...    47.996165  100.0  100.0         59.405623       True
+44532        0     Test  51912464  BV22500048     90  ...    44.325409  100.0  100.0         56.360313       True
+44533        0     Test  51912464  BV22500048     91  ...    44.285978  100.0  100.0         56.340904       True
+
+[42527 rows x 99 columns]
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos}
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:{'Veracity': ['sum', 'mean'], 'V+': ['sum', 'mean'], 'V-': ['sum', 'mean'], 'Intensity': ['sum', 'mean'], 'Interes': ['sum', 'mean'], 'Rechazo': ['sum', 'mean'], 'Atributo': ['sum', 'mean'], 'Compromiso': ['sum', 'mean'], 'Confusion': ['sum', 'mean'], 'Comprension': ['sum', 'mean'], 'Performance': ['sum', 'mean']}
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:         Module      User Veracity                       V+  ...  Confusion  Comprension             Performance           
+                               sum        mean          sum  ...       mean          sum       mean          sum       mean
+0        BB0000  51897830   3900.0   97.500000   309.438890  ...  19.554336  2604.894434  65.122361  1720.977188  43.024430
+1        BB0000  51897861   3780.0   96.923077   382.024035  ...  25.207157  2377.914876  60.972176  1656.393030  42.471616
+2        BB0000  51897880   2420.0   80.666667   274.409448  ...  17.172111  2001.547085  66.718236  1386.997151  46.233238
+3        BB0000  51897961    200.0  100.000000    18.691589  ...  26.064727   118.313120  59.156560    87.122888  43.561444
+4        BB0000  51898021   3260.0   93.142857   713.004820  ...  22.936805  2252.098990  64.345685  1692.792684  48.365505
+..          ...       ...      ...         ...          ...  ...        ...          ...        ...          ...        ...
+649  BV22500048  51917180   5510.0   61.222222  1031.410173  ...  27.708039  5017.905097  55.754501  3684.658215  40.940647
+650  BV22500048  51917243   2920.0   66.363636  1188.113530  ...  30.642107  2364.068720  53.728835  2061.840088  46.860002
+651  BV22500048  51917300   5980.0   99.666667   655.811525  ...  30.389102  3446.938520  57.448975  2548.262489  42.471041
+652  BV22500048  51917402   7240.0   81.348315   504.165659  ...  14.431986  5958.012104  66.943956  3697.588097  41.545934
+653  BV22500048  51917442   8760.0   98.426966  2345.305251  ...  28.758130  5315.164291  59.720947  4322.019514  48.562017
+
+[654 rows x 24 columns]
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:['Module', 'User', 'Veracity_mean', 'V+_mean', 'V-_mean', 'Intensity_mean', 'Interes_mean', 'Rechazo_mean', 'Atributo_mean', 'Compromiso_mean', 'Confusion_mean', 'Comprension_mean', 'Performance_mean']
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:         Module      User  Veracity_mean    V+_mean  ...  Compromiso_mean  Confusion_mean  Comprension_mean  Performance_mean
+114  BV22500043  51897830      97.313433  10.796584  ...        27.684757       18.993772         65.007430         41.741663
+192  BV22500043  51913081      95.555556  16.579963  ...        38.174177       23.524033         63.857717         46.709772
+191  BV22500043  51912881      72.619048  45.470113  ...        48.379780       27.792127         60.342219         54.588934
+190  BV22500043  51912700      86.106870  20.902806  ...        26.699235       19.007124         67.135777         46.140002
+189  BV22500043  51912560      96.283186  14.173022  ...        33.998194       15.992826         67.066163         44.990543
+..          ...       ...            ...        ...  ...              ...             ...               ...               ...
+575  BV22500048  51903740      93.103448  22.602775  ...        41.087987       35.955225         55.641299         46.914854
+574  BV22500048  51903266      63.571429   6.644117  ...        32.310107       28.004186         63.250830         44.588515
+573  BV22500048  51902941      96.774194  49.045684  ...        49.693301       25.257912         67.602121         55.953100
+584  BV22500048  51905295     100.000000  51.862588  ...        51.310157       12.255256         73.775709         53.795010
+653  BV22500048  51917442      98.426966  26.351744  ...        43.110721       28.758130         59.720947         48.562017
+
+[540 rows x 13 columns]
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:Index(['Atributo_mean', 'Comprension_mean', 'Compromiso_mean',
+       'Confusion_mean', 'Intensity_mean', 'Interes_mean', 'Performance_mean',
+       'Rechazo_mean', 'V+_mean', 'V-_mean', 'Veracity_mean'],
+      dtype='object')
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.zip'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:         Module      User  Veracity_mean  V+_mean  ...  Compromiso_mean  Confusion_mean  Comprension_mean  Performance_mean
+114  BV22500043  51897830          97.31    10.80  ...            27.68           18.99             65.01             41.74
+192  BV22500043  51913081          95.56    16.58  ...            38.17           23.52             63.86             46.71
+191  BV22500043  51912881          72.62    45.47  ...            48.38           27.79             60.34             54.59
+190  BV22500043  51912700          86.11    20.90  ...            26.70           19.01             67.14             46.14
+189  BV22500043  51912560          96.28    14.17  ...            34.00           15.99             67.07             44.99
+..          ...       ...            ...      ...  ...              ...             ...               ...               ...
+575  BV22500048  51903740          93.10    22.60  ...            41.09           35.96             55.64             46.91
+574  BV22500048  51903266          63.57     6.64  ...            32.31           28.00             63.25             44.59
+573  BV22500048  51902941          96.77    49.05  ...            49.69           25.26             67.60             55.95
+584  BV22500048  51905295         100.00    51.86  ...            51.31           12.26             73.78             53.80
+653  BV22500048  51917442          98.43    26.35  ...            43.11           28.76             59.72             48.56
+
+[540 rows x 13 columns]
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:       Problem NameTest      User      Module  Image  ...  Performance     C1     C2  PerformancePolit True/False
+0            0     Test  51902788      BB0000      1  ...    39.376921   93.2  100.0         54.479499       True
+1            0     Test  51902788      BB0000      2  ...    37.831340   92.3  100.0         53.439067       True
+2            0     Test  51902788      BB0000      3  ...    41.271912   95.3  100.0         55.686115       True
+3            0     Test  51902788      BB0000      4  ...    38.316237  100.0  100.0         51.658315       True
+4            0     Test  51902788      BB0000      5  ...    39.384056  100.0  100.0         53.391698       True
+...        ...      ...       ...         ...    ...  ...          ...    ...    ...               ...        ...
+44529        0     Test  51912464  BV22500048     87  ...    48.676885   96.1   95.0         58.952925       True
+44530        0     Test  51912464  BV22500048     88  ...    45.893697   90.8  100.0         59.773544       True
+44531        0     Test  51912464  BV22500048     89  ...    47.996165  100.0  100.0         59.405623       True
+44532        0     Test  51912464  BV22500048     90  ...    44.325409  100.0  100.0         56.360313       True
+44533        0     Test  51912464  BV22500048     91  ...    44.285978  100.0  100.0         56.340904       True
+
+[42527 rows x 99 columns]
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos}
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:{'Veracity': ['sum', 'mean'], 'V+': ['sum', 'mean'], 'V-': ['sum', 'mean'], 'Intensity': ['sum', 'mean'], 'Interes': ['sum', 'mean'], 'Rechazo': ['sum', 'mean'], 'Atributo': ['sum', 'mean'], 'Compromiso': ['sum', 'mean'], 'Confusion': ['sum', 'mean'], 'Comprension': ['sum', 'mean'], 'Performance': ['sum', 'mean']}
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:         Module      User Veracity                       V+  ...  Confusion  Comprension             Performance           
+                               sum        mean          sum  ...       mean          sum       mean          sum       mean
+0        BB0000  51897830   3900.0   97.500000   309.438890  ...  19.554336  2604.894434  65.122361  1720.977188  43.024430
+1        BB0000  51897861   3780.0   96.923077   382.024035  ...  25.207157  2377.914876  60.972176  1656.393030  42.471616
+2        BB0000  51897880   2420.0   80.666667   274.409448  ...  17.172111  2001.547085  66.718236  1386.997151  46.233238
+3        BB0000  51897961    200.0  100.000000    18.691589  ...  26.064727   118.313120  59.156560    87.122888  43.561444
+4        BB0000  51898021   3260.0   93.142857   713.004820  ...  22.936805  2252.098990  64.345685  1692.792684  48.365505
+..          ...       ...      ...         ...          ...  ...        ...          ...        ...          ...        ...
+649  BV22500048  51917180   5510.0   61.222222  1031.410173  ...  27.708039  5017.905097  55.754501  3684.658215  40.940647
+650  BV22500048  51917243   2920.0   66.363636  1188.113530  ...  30.642107  2364.068720  53.728835  2061.840088  46.860002
+651  BV22500048  51917300   5980.0   99.666667   655.811525  ...  30.389102  3446.938520  57.448975  2548.262489  42.471041
+652  BV22500048  51917402   7240.0   81.348315   504.165659  ...  14.431986  5958.012104  66.943956  3697.588097  41.545934
+653  BV22500048  51917442   8760.0   98.426966  2345.305251  ...  28.758130  5315.164291  59.720947  4322.019514  48.562017
+
+[654 rows x 24 columns]
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:['Module', 'User', 'Veracity_mean', 'V+_mean', 'V-_mean', 'Intensity_mean', 'Interes_mean', 'Rechazo_mean', 'Atributo_mean', 'Compromiso_mean', 'Confusion_mean', 'Comprension_mean', 'Performance_mean']
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:         Module      User  Veracity_mean    V+_mean  ...  Compromiso_mean  Confusion_mean  Comprension_mean  Performance_mean
+114  BV22500043  51897830      97.313433  10.796584  ...        27.684757       18.993772         65.007430         41.741663
+192  BV22500043  51913081      95.555556  16.579963  ...        38.174177       23.524033         63.857717         46.709772
+191  BV22500043  51912881      72.619048  45.470113  ...        48.379780       27.792127         60.342219         54.588934
+190  BV22500043  51912700      86.106870  20.902806  ...        26.699235       19.007124         67.135777         46.140002
+189  BV22500043  51912560      96.283186  14.173022  ...        33.998194       15.992826         67.066163         44.990543
+..          ...       ...            ...        ...  ...              ...             ...               ...               ...
+575  BV22500048  51903740      93.103448  22.602775  ...        41.087987       35.955225         55.641299         46.914854
+574  BV22500048  51903266      63.571429   6.644117  ...        32.310107       28.004186         63.250830         44.588515
+573  BV22500048  51902941      96.774194  49.045684  ...        49.693301       25.257912         67.602121         55.953100
+584  BV22500048  51905295     100.000000  51.862588  ...        51.310157       12.255256         73.775709         53.795010
+653  BV22500048  51917442      98.426966  26.351744  ...        43.110721       28.758130         59.720947         48.562017
+
+[540 rows x 13 columns]
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:Index(['Atributo_mean', 'Comprension_mean', 'Compromiso_mean',
+       'Confusion_mean', 'Intensity_mean', 'Interes_mean', 'Performance_mean',
+       'Rechazo_mean', 'V+_mean', 'V-_mean', 'Veracity_mean'],
+      dtype='object')
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.zip'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:         Module      User  Veracity_mean  V+_mean  ...  Compromiso_mean  Confusion_mean  Comprension_mean  Performance_mean
+114  BV22500043  51897830          97.31    10.80  ...            27.68           18.99             65.01             41.74
+192  BV22500043  51913081          95.56    16.58  ...            38.17           23.52             63.86             46.71
+191  BV22500043  51912881          72.62    45.47  ...            48.38           27.79             60.34             54.59
+190  BV22500043  51912700          86.11    20.90  ...            26.70           19.01             67.14             46.14
+189  BV22500043  51912560          96.28    14.17  ...            34.00           15.99             67.07             44.99
+..          ...       ...            ...      ...  ...              ...             ...               ...               ...
+575  BV22500048  51903740          93.10    22.60  ...            41.09           35.96             55.64             46.91
+574  BV22500048  51903266          63.57     6.64  ...            32.31           28.00             63.25             44.59
+573  BV22500048  51902941          96.77    49.05  ...            49.69           25.26             67.60             55.95
+584  BV22500048  51905295         100.00    51.86  ...            51.31           12.26             73.78             53.80
+653  BV22500048  51917442          98.43    26.35  ...            43.11           28.76             59.72             48.56
+
+[540 rows x 13 columns]
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:       Problem NameTest      User      Module  Image  ...  Performance     C1     C2  PerformancePolit True/False
+0            0     Test  51902788      BB0000      1  ...    39.376921   93.2  100.0         54.479499       True
+1            0     Test  51902788      BB0000      2  ...    37.831340   92.3  100.0         53.439067       True
+2            0     Test  51902788      BB0000      3  ...    41.271912   95.3  100.0         55.686115       True
+3            0     Test  51902788      BB0000      4  ...    38.316237  100.0  100.0         51.658315       True
+4            0     Test  51902788      BB0000      5  ...    39.384056  100.0  100.0         53.391698       True
+...        ...      ...       ...         ...    ...  ...          ...    ...    ...               ...        ...
+44529        0     Test  51912464  BV22500048     87  ...    48.676885   96.1   95.0         58.952925       True
+44530        0     Test  51912464  BV22500048     88  ...    45.893697   90.8  100.0         59.773544       True
+44531        0     Test  51912464  BV22500048     89  ...    47.996165  100.0  100.0         59.405623       True
+44532        0     Test  51912464  BV22500048     90  ...    44.325409  100.0  100.0         56.360313       True
+44533        0     Test  51912464  BV22500048     91  ...    44.285978  100.0  100.0         56.340904       True
+
+[42527 rows x 99 columns]
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos}
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:{'Veracity': ['sum', 'mean'], 'V+': ['sum', 'mean'], 'V-': ['sum', 'mean'], 'Intensity': ['sum', 'mean'], 'Interes': ['sum', 'mean'], 'Rechazo': ['sum', 'mean'], 'Atributo': ['sum', 'mean'], 'Compromiso': ['sum', 'mean'], 'Confusion': ['sum', 'mean'], 'Comprension': ['sum', 'mean'], 'Performance': ['sum', 'mean']}
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:         Module      User Veracity              ...  Comprension             Performance           
+                               sum        mean  ...          sum       mean          sum       mean
+0        BB0000  51897830   3900.0   97.500000  ...  2604.894434  65.122361  1720.977188  43.024430
+1        BB0000  51897861   3780.0   96.923077  ...  2377.914876  60.972176  1656.393030  42.471616
+2        BB0000  51897880   2420.0   80.666667  ...  2001.547085  66.718236  1386.997151  46.233238
+3        BB0000  51897961    200.0  100.000000  ...   118.313120  59.156560    87.122888  43.561444
+4        BB0000  51898021   3260.0   93.142857  ...  2252.098990  64.345685  1692.792684  48.365505
+..          ...       ...      ...         ...  ...          ...        ...          ...        ...
+649  BV22500048  51917180   5510.0   61.222222  ...  5017.905097  55.754501  3684.658215  40.940647
+650  BV22500048  51917243   2920.0   66.363636  ...  2364.068720  53.728835  2061.840088  46.860002
+651  BV22500048  51917300   5980.0   99.666667  ...  3446.938520  57.448975  2548.262489  42.471041
+652  BV22500048  51917402   7240.0   81.348315  ...  5958.012104  66.943956  3697.588097  41.545934
+653  BV22500048  51917442   8760.0   98.426966  ...  5315.164291  59.720947  4322.019514  48.562017
+
+[654 rows x 24 columns]
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:['Module', 'User', 'Veracity_mean', 'V+_mean', 'V-_mean', 'Intensity_mean', 'Interes_mean', 'Rechazo_mean', 'Atributo_mean', 'Compromiso_mean', 'Confusion_mean', 'Comprension_mean', 'Performance_mean']
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:         Module      User  Veracity_mean  ...  Confusion_mean  Comprension_mean  Performance_mean
+114  BV22500043  51897830      97.313433  ...       18.993772         65.007430         41.741663
+331  BV22500045  51897830      69.615385  ...       10.154624         75.486810         45.616542
+437  BV22500047  51897830      65.222222  ...       13.605887         72.641675         46.241830
+222  BV22500044  51897830      80.056818  ...       14.477708         70.085923         44.031501
+545  BV22500048  51897830      65.303030  ...        8.373945         74.940990         43.106807
+..          ...       ...            ...  ...             ...               ...               ...
+221  BV22500043  51917442      99.104478  ...       30.070094         61.279636         48.483801
+544  BV22500047  51917442      95.505618  ...       32.429460         55.410477         41.427486
+330  BV22500044  51917442      92.330827  ...       35.672642         53.078431         43.210357
+436  BV22500045  51917442      98.666667  ...       23.854231         61.237075         43.935784
+653  BV22500048  51917442      98.426966  ...       28.758130         59.720947         48.562017
+
+[540 rows x 13 columns]
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:Index(['Atributo_mean', 'Comprension_mean', 'Compromiso_mean',
+       'Confusion_mean', 'Intensity_mean', 'Interes_mean', 'Performance_mean',
+       'Rechazo_mean', 'V+_mean', 'V-_mean', 'Veracity_mean'],
+      dtype='object')
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.zip'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:         Module      User  Veracity_mean  ...  Confusion_mean  Comprension_mean  Performance_mean
+114  BV22500043  51897830          97.31  ...           18.99             65.01             41.74
+331  BV22500045  51897830          69.62  ...           10.15             75.49             45.62
+437  BV22500047  51897830          65.22  ...           13.61             72.64             46.24
+222  BV22500044  51897830          80.06  ...           14.48             70.09             44.03
+545  BV22500048  51897830          65.30  ...            8.37             74.94             43.11
+..          ...       ...            ...  ...             ...               ...               ...
+221  BV22500043  51917442          99.10  ...           30.07             61.28             48.48
+544  BV22500047  51917442          95.51  ...           32.43             55.41             41.43
+330  BV22500044  51917442          92.33  ...           35.67             53.08             43.21
+436  BV22500045  51917442          98.67  ...           23.85             61.24             43.94
+653  BV22500048  51917442          98.43  ...           28.76             59.72             48.56
+
+[540 rows x 13 columns]
+INFO:__main__:Archivo JSON cargado exitosamente.
+INFO:__main__:Datos de Excel cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\202250_IPG_respidWebcam.xlsx.
+INFO:__main__:Datos CSV cargados desde C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\result_total_data.csv.
+INFO:__main__:data = pd.read_excel(file_path, sheet_name=sheet0)
+INFO:__main__:data1 = pd.read_csv(file_path2)
+INFO:__main__:data1['True/False'] = data1['User'].isin(data['respid'])
+INFO:__main__:filtered_data = data1[data1['True/False']]
+INFO:__main__:Leer los archivos introducidos y Creación columna True/False
+INFO:__main__:       Problem NameTest      User      Module  Image  ...  Performance     C1     C2  PerformancePolit True/False
+0            0     Test  51902788      BB0000      1  ...    39.376921   93.2  100.0         54.479499       True
+1            0     Test  51902788      BB0000      2  ...    37.831340   92.3  100.0         53.439067       True
+2            0     Test  51902788      BB0000      3  ...    41.271912   95.3  100.0         55.686115       True
+3            0     Test  51902788      BB0000      4  ...    38.316237  100.0  100.0         51.658315       True
+4            0     Test  51902788      BB0000      5  ...    39.384056  100.0  100.0         53.391698       True
+...        ...      ...       ...         ...    ...  ...          ...    ...    ...               ...        ...
+44529        0     Test  51912464  BV22500048     87  ...    48.676885   96.1   95.0         58.952925       True
+44530        0     Test  51912464  BV22500048     88  ...    45.893697   90.8  100.0         59.773544       True
+44531        0     Test  51912464  BV22500048     89  ...    47.996165  100.0  100.0         59.405623       True
+44532        0     Test  51912464  BV22500048     90  ...    44.325409  100.0  100.0         56.360313       True
+44533        0     Test  51912464  BV22500048     91  ...    44.285978  100.0  100.0         56.340904       True
+
+[42527 rows x 99 columns]
+INFO:__main__:campos = [ 'Veracity', 'V+', 'V-', 'Intensity', 'Interes', 'Rechazo', 'Atributo', 'Compromiso', 'Confusion', 'Comprension', 'Performance']
+INFO:__main__:average_func = {field: ['sum', 'mean'] for field in campos}
+INFO:__main__:Creacion de dos subcampos para cada campo
+INFO:__main__:{'Veracity': ['sum', 'mean'], 'V+': ['sum', 'mean'], 'V-': ['sum', 'mean'], 'Intensity': ['sum', 'mean'], 'Interes': ['sum', 'mean'], 'Rechazo': ['sum', 'mean'], 'Atributo': ['sum', 'mean'], 'Compromiso': ['sum', 'mean'], 'Confusion': ['sum', 'mean'], 'Comprension': ['sum', 'mean'], 'Performance': ['sum', 'mean']}
+INFO:__main__:grouped_data = filtered_data.groupby(['Module', 'User']).agg(average_func).reset_index()
+INFO:__main__:Agrupar cada fila por los campos Module y User y resetear el index
+INFO:__main__:         Module      User Veracity              ...  Comprension             Performance           
+                               sum        mean  ...          sum       mean          sum       mean
+0        BB0000  51897830   3900.0   97.500000  ...  2604.894434  65.122361  1720.977188  43.024430
+1        BB0000  51897861   3780.0   96.923077  ...  2377.914876  60.972176  1656.393030  42.471616
+2        BB0000  51897880   2420.0   80.666667  ...  2001.547085  66.718236  1386.997151  46.233238
+3        BB0000  51897961    200.0  100.000000  ...   118.313120  59.156560    87.122888  43.561444
+4        BB0000  51898021   3260.0   93.142857  ...  2252.098990  64.345685  1692.792684  48.365505
+..          ...       ...      ...         ...  ...          ...        ...          ...        ...
+649  BV22500048  51917180   5510.0   61.222222  ...  5017.905097  55.754501  3684.658215  40.940647
+650  BV22500048  51917243   2920.0   66.363636  ...  2364.068720  53.728835  2061.840088  46.860002
+651  BV22500048  51917300   5980.0   99.666667  ...  3446.938520  57.448975  2548.262489  42.471041
+652  BV22500048  51917402   7240.0   81.348315  ...  5958.012104  66.943956  3697.588097  41.545934
+653  BV22500048  51917442   8760.0   98.426966  ...  5315.164291  59.720947  4322.019514  48.562017
+
+[654 rows x 24 columns]
+INFO:__main__:grouped_data.columns = ['_'.join(col).strip() if col[1] else col[0] for col in grouped_data.columns.values]
+INFO:__main__:mean_columns = [col for col in grouped_data.columns if col.endswith('_mean')]
+INFO:__main__:mean_columns = ['Module', 'User'] + mean_columns
+INFO:__main__:Guardar en un array las columnas
+INFO:__main__:['Module', 'User', 'Veracity_mean', 'V+_mean', 'V-_mean', 'Intensity_mean', 'Interes_mean', 'Rechazo_mean', 'Atributo_mean', 'Compromiso_mean', 'Confusion_mean', 'Comprension_mean', 'Performance_mean']
+INFO:__main__:filtered_grouped_data = grouped_data[~grouped_data['Module'].isin(['BBBB0001', 'BB0000'])][mean_columns].copy()
+INFO:__main__:filtered_grouped_data.sort_values(by='Module', inplace=True)
+INFO:__main__:Ordenar la columna Module por numeración
+INFO:__main__:         Module      User  Veracity_mean  ...  Confusion_mean  Comprension_mean  Performance_mean
+114  BV22500043  51897830      97.313433  ...       18.993772         65.007430         41.741663
+115  BV22500043  51897861      98.103448  ...       25.278155         64.088000         48.775389
+116  BV22500043  51897880      88.979592  ...       18.459541         68.610722         53.936264
+117  BV22500043  51898021      88.543689  ...       32.804688         55.281351         44.038218
+118  BV22500043  51898167      92.352941  ...       24.496537         62.629222         44.149956
+..          ...       ...            ...  ...             ...               ...               ...
+649  BV22500048  51917180      61.222222  ...       27.708039         55.754501         40.940647
+650  BV22500048  51917243      66.363636  ...       30.642107         53.728835         46.860002
+651  BV22500048  51917300      99.666667  ...       30.389102         57.448975         42.471041
+652  BV22500048  51917402      81.348315  ...       14.431986         66.943956         41.545934
+653  BV22500048  51917442      98.426966  ...       28.758130         59.720947         48.562017
+
+[540 rows x 13 columns]
+INFO:__main__:numeric_columns = filtered_grouped_data.columns.difference(['Module', 'User'])
+INFO:__main__:filtered_grouped_data.loc[:, numeric_columns] = filtered_grouped_data.loc[:, numeric_columns].round(2)
+INFO:__main__:Establece nombre a cada columna y redondea los numeros a 2 decimales
+INFO:__main__:Index(['Atributo_mean', 'Comprension_mean', 'Compromiso_mean',
+       'Confusion_mean', 'Intensity_mean', 'Interes_mean', 'Performance_mean',
+       'Rechazo_mean', 'V+_mean', 'V-_mean', 'Veracity_mean'],
+      dtype='object')
+INFO:__main__:output_path = 'C:\Users\bpellicer\Downloads\neuro_agg\neuro_agg\data_input\usuaris_agrupats_media_ordenats.zip'
+INFO:__main__:filtered_grouped_data.to_csv(output_path, index=False)
+INFO:__main__:Creacion de variable con el path del numero archivo a crear y creación
+INFO:__main__:         Module      User  Veracity_mean  ...  Confusion_mean  Comprension_mean  Performance_mean
+114  BV22500043  51897830          97.31  ...           18.99             65.01             41.74
+115  BV22500043  51897861          98.10  ...           25.28             64.09             48.78
+116  BV22500043  51897880          88.98  ...           18.46             68.61             53.94
+117  BV22500043  51898021          88.54  ...           32.80             55.28             44.04
+118  BV22500043  51898167          92.35  ...           24.50             62.63             44.15
+..          ...       ...            ...  ...             ...               ...               ...
+649  BV22500048  51917180          61.22  ...           27.71             55.75             40.94
+650  BV22500048  51917243          66.36  ...           30.64             53.73             46.86
+651  BV22500048  51917300          99.67  ...           30.39             57.45             42.47
+652  BV22500048  51917402          81.35  ...           14.43             66.94             41.55
+653  BV22500048  51917442          98.43  ...           28.76             59.72             48.56
+
+[540 rows x 13 columns]

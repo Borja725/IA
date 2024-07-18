@@ -1,0 +1,673 @@
+[
+  {
+    "text": "A pesar de la calidad del café, la falta de cuidado en el embalaje resulta en cápsulas dañadas con frecuencia.",
+    "spans": [
+      {
+        "text": "cápsulas dañadas",
+        "is_entity": true,
+        "label": "0101"
+      }
+    ],
+     "answer": "0101"
+  },
+  {
+    "text": "El servicio de entrega es pésimo, cada vez peor. El último pedido tardó 11 días para recibirlo.",
+    "spans": [
+      {
+        "text": "pedido tardó 11 días",
+        "is_entity": true,
+        "label": "0102"
+      }
+    ], "answer": "0102"
+  },
+  {
+    "text": "El pedido llegó incompleto, y no puedo disfrutar de mi café como lo planeé.",
+    "spans": [
+      {
+        "text": "pedido llegó incompleto",
+        "is_entity": true,
+        "label": "0103"
+      }
+    ], "answer": "0103"
+  },
+  {
+    "text": "La empresa de mensajería no ha sido confiable en la entrega de mis pedidos de Nespresso.",
+    "spans": [
+      {
+        "text": "empresa de mensajería no ha sido confiable",
+        "is_entity": true,
+        "label": "0104"
+      }
+    ], "answer": "0104"
+  },
+  {
+    "text": "El repartidor de MRW entregó mi paquete tarde y no agradeceron ninguna explicación ni disculpa.",
+    "spans": [
+      {
+        "text": "repartidor",
+        "is_entity": true,
+        "label": "0104"
+      },
+      {
+        "text": "de MRW",
+        "is_entity": true,
+        "label": "0104"
+      },
+      {
+        "text": "entregó mi paquete tarde",
+        "is_entity": true,
+        "label": "0102"
+      }
+    ], "answer": "0104,0102"
+  },
+  {
+    "text": "Aunque el cafe es bueno, Nespresso resulta bastante caro.",
+    "spans": [
+       {
+        "text": "Aunque el cafe es bueno",
+        "is_entity": true,
+        "label": "9201"
+      },
+      {
+        "text": "bastante caro",
+        "is_entity": true,
+        "label": "0201"
+      }
+    ], "answer": "9201,0201"
+  },
+  {
+    "text": "Encuentro que el café es particularmente delicioso y bien preparado. No puedo evitar sentir que me están estafando con estos precios.",
+    "spans": [
+       {
+        "text": "café es particularmente delicioso",
+        "is_entity": true,
+        "label": "9201"
+      },
+      {
+        "text": "No puedo evitar sentir que me están estafando con estos precios",
+        "is_entity": true,
+        "label": "0201"
+      }
+    ], "answer": "9201,0201"
+  },
+  {
+    "text": "No puedo evitar sentir que me están estafando con estos precios.",
+    "spans": [
+      {
+        "text": "estafando con estos precios",
+        "is_entity": true,
+        "label": "0201"
+      }
+    ], "answer": "0201"
+  },
+  {
+    "text": "Compré una cafetera que tuvo problemas repetidos, y cuando ya no estaba en garantía, me decepcionaron.",
+    "spans": [
+      {
+        "text": "garantia, me decepcionaron",
+        "is_entity": true,
+        "label": "0202"
+      }
+    ], "answer": "0202"
+  },
+  {
+    "text": "Compré un producto basado en su publicidad, pero no era lo que prometían. Decepcionante.",
+    "spans": [
+      {
+        "text": "publicidad, pero no era lo que prometían",
+        "is_entity": true,
+        "label": "0203"
+      }
+    ], "answer": "0203"
+  },
+  {
+    "text": "No han hecho lo que prometieron.",
+    "spans": [
+      {
+        "text": "No han hecho lo que prometieron",
+        "is_entity": true,
+        "label": "0203"
+      }
+    ], "answer": "0203"
+  },
+  {
+    "text": "Como cliente de muchos años, esperaba un trato especial, pero las ofertas no reflejan mi fidelidad.",
+    "spans": [
+      {
+        "text": "esperaba un trato especial",
+        "is_entity": true,
+        "label": "0204"
+      },
+      {
+        "text": "las ofertas no reflejan mi fidelidad",
+        "is_entity": true,
+        "label": "0204"
+      }
+    ], "answer": "0204"
+  },
+  {
+    "text": "El plan de suscripción es un desastre. No cumplen con las entregas.",
+    "spans": [
+      {
+        "text": "plan de suscripcion es un desastre",
+        "is_entity": true,
+        "label": "0205"
+      }
+    ], "answer": "0205"
+  },
+  {
+    "text": "Creo que la calidad de las cápsulas, es decir del café, ha cambiado, ya no es la que era. Es de inferior calidad que hace unos años.",
+    "spans": [
+      {
+        "text": "inferior calidad",
+        "is_entity": true,
+        "label": "0206"
+      }
+    ], "answer": "0206"
+  },
+  {
+    "text": "Creo que falta variedad en términos de tés y bebidas saludables en el catálogo de Nespresso.",
+    "spans": [
+      {
+        "text": "falta variedad",
+        "is_entity": true,
+        "label": "0206"
+      }
+    ], "answer": "0206"
+  },
+  {
+    "text": "Mi máquina no hace café correctamente y el depósito de agua pierde.",
+    "spans": [
+      {
+        "text": "Mi máquina no hace café correctamente",
+        "is_entity": true,
+        "label": "0207"
+      }
+    ], "answer": "0207"
+  },
+  {
+    "text": "Mi máquina se avería con frecuencia, lo cual es una experiencia frustrante.",
+    "spans": [
+      {
+        "text": "Mi máquina se avería con frecuencia",
+        "is_entity": true,
+        "label": "0207"
+      }
+    ], "answer": "0207"
+  },
+  {
+    "text": "La máquina da problemas constantemente Pedí un reembolso y la empresa nunca devolvió el dinero. Es una falta de respeto al cliente.",
+    "spans": [
+      {
+        "text": "La máquina da problemas constantemente",
+        "is_entity": true,
+        "label": "0207"
+      },
+      {
+        "text": "Pedí un reembolso y la empresa nunca devolvió el dinero",
+        "is_entity": true,
+        "label": "0202"
+      },
+      {
+        "text": "Es una falta de respeto al cliente",
+        "is_entity": true,
+        "label": "0202"
+      }
+    ], "answer": "0207,0202"
+  },
+  {
+    "text": "Siempre tengo que llamar al servicio técnico. Mi cafetera está en reparación y prometieron proporcionarme una máquina de cortesía, nunca llegó.",
+    "spans": [
+      {
+        "text": "Mi cafetera está en reparación",
+        "is_entity": true,
+        "label": "0207"
+      },
+      {
+        "text": "prometieron proporcionarme una máquina de cortesía, nunca llegó",
+        "is_entity": true,
+        "label": "0405"
+      }
+    ], "answer": "0207,0405"
+  },
+  {
+    "text": "Disfruto mucho del producto, aunque me gustaría una mayor facilidad de compra.",
+    "spans": [
+      {
+        "text": "me gustaria una mayor facilidad de compra",
+        "is_entity": true,
+        "label": "0208"
+      }
+    ], "answer": "0208"
+  },
+  {
+    "text": "Nada que mencionar.",
+    "spans": [
+      {
+        "text": "Nada que mencionar",
+        "is_entity": true,
+        "label": "0009"
+      }
+    ], "answer": "0009"
+  },
+  {
+    "text": ".",
+    "spans": [
+      {
+        "text": ".",
+        "is_entity": true,
+        "label": "0009"
+      }
+    ], "answer": "0009"
+  },
+  {
+    "text": "Tiene margen de mejora. No fue la mejor experiencia.",
+    "spans": [
+      {
+        "text": "margen de mejora",
+        "is_entity": true,
+        "label": "0095"
+      },
+      {
+        "text": "No fue la mejor experiencia",
+        "is_entity": true,
+        "label": "0095"
+      }
+    ], "answer": "0095"
+  },
+  {
+    "text": "Error tras error",
+    "spans": [
+      {
+        "text": "Error tras error",
+        "is_entity": true,
+        "label": "0095"
+      }
+    ], "answer": "0095"
+  },
+  {
+    "text": "Se debería dar solución al problema de las cápsulas difíciles de reciclar.",
+    "spans": [
+      {
+        "text": "cápsulas difíciles de reciclar",
+        "is_entity": true,
+        "label": "0301"
+      }
+    ], "answer": "0301"
+  },
+  {
+    "text": "Debería haber más opciones ecológicas para las cápsulas de café en el mercado.",
+    "spans": [
+      {
+        "text": "haber más opciones ecológicas",
+        "is_entity": true,
+        "label": "0302"
+      }
+    ], "answer": "0302"
+  },
+  {
+    "text": "La calidad del producto es insuperable.",
+    "spans": [
+      {
+        "text": "calidad del producto es insuperable",
+        "is_entity": true,
+        "label": "9201"
+      }
+    ], "answer": "9201"
+  },
+  {
+    "text": "La calidad del café es inigualable.",
+    "spans": [
+      {
+        "text": "calidad del café es inigualable",
+        "is_entity": true,
+        "label": "9201"
+      }
+    ], "answer": "9201"
+  },
+  {
+    "text": "Mi máquina de café aún tiene problemas de funcionamiento después de ser reparada.",
+    "spans": [
+      {
+        "text": "después de ser reparada",
+        "is_entity": true,
+        "label": "0401"
+      },
+      {
+        "text": "aún tiene problemas de funcionamiento",
+        "is_entity": true,
+        "label": "0401"
+      }
+    ], "answer": "0401"
+  },
+  {
+    "text": "No puedo comprender la tardanza en la recogida de mi máquina para reparación, es realmente frustrante.",
+    "spans": [
+      {
+        "text": " tardanza en la recogida",
+        "is_entity": true,
+        "label": "0402"
+      }
+    ], "answer": "0402"
+  },
+  {
+    "text": "Estoy decepcionado con el tiempo que el servicio técnico ha tardado en arreglar mi cafetera.",
+    "spans": [
+      {
+        "text": "ha tardado en arreglar",
+        "is_entity": true,
+        "label": "0403"
+      }
+    ], "answer": "0403"
+  },
+  {
+    "text": "La lentitud de comunicación con el soporte técnico ha dificultado poder disfrutar de mi cafetera sin preocupaciones.",
+    "spans": [
+      {
+        "text": "lentitud de comunicación",
+        "is_entity": true,
+        "label": "0404"
+      }
+    ], "answer": "0404"
+  },
+  {
+    "text": "La máquina de reemplazo tenía un botón de encendido que no funcionaba correctamente.",
+    "spans": [
+      {
+        "text": "no funcionaba correctamente",
+        "is_entity": true,
+        "label": "0405"
+      },
+      {
+        "text": "máquina de reemplazo",
+        "is_entity": true,
+        "label": "0405"
+      }
+    ], "answer": "0405"
+  },
+  {
+    "text": "La falta de profesionalidad en el servicio técnico es una constante decepción.",
+    "spans": [
+      {
+        "text": "servicio técnico es una constante decepción",
+        "is_entity": true,
+        "label": "0406"
+      }
+    ], "answer": "0406"
+  },
+  {
+    "text": "La falta de atención del servicio técnico es preocupante.",
+    "spans": [
+      {
+        "text": "falta de atención del servicio técnico",
+        "is_entity": true,
+        "label": "0406"
+      }
+    ], "answer": "0406"
+  },
+  {
+    "text": "La lentitud de su sitio web y aplicaciones es inaceptable en estos tiempos.",
+    "spans": [
+      {
+        "text": "lentitud de su sitio web y aplicaciones",
+        "is_entity": true,
+        "label": "0501"
+      }
+    ], "answer": "0501"
+  },
+  {
+    "text": "Compré una cafetera en El Corte Inglés y ahora me enfrento a problemas constantes con ella.",
+    "spans": [
+      {
+        "text": "cafetera en El Corte Inglés y ahora me enfrento a problemas constantes",
+        "is_entity": true,
+        "label": "0601"
+      }
+    ], "answer": "0601"
+  },
+  {
+    "text": "El personal de la tienda debería mejorar su actitud.",
+    "spans": [
+      {
+        "text": "personal de la tienda",
+        "is_entity": true,
+        "label": "0701"
+      },
+      {
+        "text": "debería mejorar su actitud",
+        "is_entity": true,
+        "label": "0701"
+      }
+    ], "answer": "0701"
+  },
+  {
+    "text": "Desearía poder probar el café antes de decidirme a comprarlo.",
+    "spans": [
+      {
+        "text": "poder probar el café",
+        "is_entity": true,
+        "label": "0702"
+      }
+    ], "answer": "0702"
+  },
+  {
+    "text": "El cierre de la tienda en el centro de Granada fue una decisión poco acertada.",
+    "spans": [
+      {
+        "text": "cierre de la tienda",
+        "is_entity": true,
+        "label": "0708"
+      },
+      {
+        "text": "fue una decisión poco acertada",
+        "is_entity": true,
+        "label": "0708"
+      }
+    ], "answer": "0708"
+  },
+  {
+    "text": "Mi última comunicación fue con el servicio técnico para la revisión de mi cafetera, pero no he recibido respuesta a mis correos electrónicos.",
+    "spans": [
+      {
+        "text": "servicio tecnico",
+        "is_entity": true,
+        "label": "0808"
+      },
+      {
+        "text": "no he recibido respuesta a mis correos electrónicos",
+        "is_entity": true,
+        "label": "0808"
+      }
+    ], "answer": "0808"
+  },
+  {
+    "text": "La entrega de pedidos es excelente  Buen servicio",
+    "spans": [
+      {
+        "text": "entrega de pedidos es excelente",
+        "is_entity": true,
+        "label": "9101"
+      }
+    ], "answer": "9101"
+  },
+  {
+    "text": "Un producto de calidad con una amplia variedad de opciones.",
+    "spans": [
+      {
+        "text": "producto de calidad",
+        "is_entity": true,
+        "label": "9201"
+      },
+      {
+        "text": "amplia variedad de opciones",
+        "is_entity": true,
+        "label": "9201"
+      }
+    ], "answer": "9201"
+  },
+  {
+    "text": "Siempre elijo estos cafés por su calidad inigualable.",
+    "spans": [
+      {
+        "text": "calidad inigualable",
+        "is_entity": true,
+        "label": "9201"
+      }
+    ], "answer": "9201"
+  },
+  {
+    "text": "La marca ha revolucionado el concepto de marketing en su sector.",
+    "spans": [
+      {
+        "text": "ha revolucionado el concepto de marketing",
+        "is_entity": true,
+        "label": "9202"
+      }
+    ], "answer": "9202"
+  },
+  {
+    "text": "Como miembro del club, disfruto de recompensas que no encuentro en otros lugares.",
+    "spans": [
+      {
+        "text": "disfruto de recompensas",
+        "is_entity": true,
+        "label": "9203"
+      }
+    ], "answer": "9203"
+  },
+  {
+    "text": "Confío en una marca que valora y promueve la sostenibilidad.",
+    "spans": [
+      {
+        "text": "valora y promueve la sostenibilidad",
+        "is_entity": true,
+        "label": "9301"
+      }
+    ], "answer": "9301"
+  },
+  {
+    "text": "Buen servicio de reparación y máquina de repuesto.",
+    "spans": [
+      {
+        "text": "Buen servicio de reparación",
+        "is_entity": true,
+        "label": "9401"
+      }
+    ], "answer": "9401"
+  },
+  {
+    "text": "La web es clara y fácil de usar, y siempre llega rápido.",
+    "spans": [
+      {
+        "text": "La web es clara y fácil de usar",
+        "is_entity": true,
+        "label": "9501"
+      }
+    ], "answer": "9501"
+  },
+  {
+    "text": "Los dependientes de Amazon son atentos y cumplen con las solicitudes de los clientes de manera efectiva.",
+    "spans": [
+      {
+        "text": "dependientes de Amazon son atentos",
+        "is_entity": true,
+        "label": "9601"
+      },
+      {
+        "text": "cumplen con las solicitudes de los clientes de manera efectiva",
+        "is_entity": true,
+        "label": "9601"
+      }
+    ], "answer": "9601"
+  },
+  {
+    "text": "Los empleados de Nespresso siempre están dispuestos a ayudar.",
+    "spans": [
+      {
+        "text": "empleados de Nespresso",
+        "is_entity": true,
+        "label": "9701"
+      },
+      {
+        "text": "dispuestos a ayudar",
+        "is_entity": true,
+        "label": "9701"
+      }
+    ], "answer": "9701"
+  },
+  {
+    "text": "Durante la degustación, puedo explorar las diferentes variedades de café.",
+    "spans": [
+      {
+        "text": "Durante la degustación",
+        "is_entity": true,
+        "label": "9702"
+      },
+      {
+        "text": "puedo explorar las diferentes variedades",
+        "is_entity": true,
+        "label": "9702"
+      }
+    ], "answer": "9702"
+  },
+  {
+    "text": "La atención personal muy buena y los cafés excelentes",
+    "spans": [
+      {
+        "text": "atención personal muy buena",
+        "is_entity": true,
+        "label": "9801"
+      },
+      {
+        "text": "cafes excelentes",
+        "is_entity": true,
+        "label": "9201"
+      }
+    ], "answer": "9801,9201"
+  },
+  {
+    "text": "El servicio es rápido y eficiente, y el trato siempre es amable y profesional. Disfruto del rico sabor y la variedad de opciones que ofrece.",
+    "spans": [
+      {
+        "text": "El servicio es rápido y eficiente",
+        "is_entity": true,
+        "label": "9801"
+      },
+      {
+        "text": "trato siempre es amable y profesional",
+        "is_entity": true,
+        "label": "9801"
+      },
+      {
+        "text": "Disfruto del rico sabor",
+        "is_entity": true,
+        "label": "9201"
+      }
+    ], "answer": "9801,9201"
+  },
+  {
+    "text": "La conducta amable y la destreza profesional del personal de la empresa.",
+    "spans": [
+      {
+        "text": "conducta amable",
+        "is_entity": true,
+        "label": "9801"
+      },
+      {
+        "text": "destreza profesional del personal",
+        "is_entity": true,
+        "label": "9801"
+      }
+    ], "answer": "9801"
+  },
+  {
+    "text": "Todo genial.",
+    "spans": [
+      {
+        "text": "Todo genial",
+        "is_entity": true,
+        "label": "9995"
+      }
+    ], "answer": "9995"
+  }
+]

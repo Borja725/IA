@@ -1,0 +1,4082 @@
+[
+    {
+        "VERBATIM": [
+            "Meh, no tengo nada especial que comentar."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Meh, no tengo nada especial que comentar.",
+                    "semantic_conclusion": "No hay comentarios específicos o significativos.",
+                    "themes": [
+                        "Neutral Comment"
+                    ],
+                    "sentiment": "neutral",
+                    "category": "NS / NC - 00",
+                    "details": {
+                        "impact": "Ninguno.",
+                        "responsible_party": "N/A.",
+                        "expected_action": "N/A."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Muy"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Muy",
+                    "semantic_conclusion": "Evaluación positiva general.",
+                    "themes": [
+                        "General Satisfaction"
+                    ],
+                    "sentiment": "positive",
+                    "category": "Otros Positivos - 99",
+                    "details": {
+                        "impact": "Alta satisfacción del cliente.",
+                        "responsible_party": "General",
+                        "expected_action": "Mantener y mejorar la satisfacción general del cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "nada"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "nada",
+                    "semantic_conclusion": "No hay información relevante o el cliente no proporcionó una respuesta clara.",
+                    "themes": [
+                        "No aplica"
+                    ],
+                    "sentiment": "neutral",
+                    "category": "NS / NC - 0009",
+                    "details": {
+                        "impact": "No hay impacto claro.",
+                        "responsible_party": "No aplica.",
+                        "expected_action": "No se requiere acción adicional."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Nada en particular que mencionar."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Nada en particular que mencionar.",
+                    "semantic_conclusion": "No hay comentarios específicos o quejas.",
+                    "themes": [
+                        "General Feedback"
+                    ],
+                    "sentiment": "neutral",
+                    "category": "NS / NC - 0009",
+                    "details": {
+                        "impact": "No hay impacto significativo.",
+                        "responsible_party": "N/A",
+                        "expected_action": "N/A"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "No sé qué decir, fue una compra sin más."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "No sé qué decir, fue una compra sin más.",
+                    "semantic_conclusion": "El cliente no tiene una opinión clara o no sabe qué decir sobre la compra.",
+                    "themes": [
+                        "Compra",
+                        "Opinión del cliente"
+                    ],
+                    "sentiment": "neutral",
+                    "category": "NS / NC - 00",
+                    "details": {
+                        "impact": "No hay un impacto claro en la satisfacción del cliente.",
+                        "responsible_party": "No aplica.",
+                        "expected_action": "No se requiere acción adicional."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Error tras error"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Error tras error",
+                    "semantic_conclusion": "Queja sobre errores recurrentes en el servicio o producto.",
+                    "themes": [
+                        "Error Handling",
+                        "Service Quality"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Servicio Técnico - 0401",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de servicio técnico.",
+                        "expected_action": "Investigar y solucionar los errores de manera efectiva."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "No me han solucionado el problema"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "No me han solucionado el problema",
+                    "semantic_conclusion": "Insatisfacción con la resolución del problema.",
+                    "themes": [
+                        "Customer Support",
+                        "Issue Resolution"
+                    ],
+                    "sentiment": "negative",
+                    "category": "CRC - 0406",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Revisar y mejorar la eficiencia en la resolución de problemas."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "No tienen palabras"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "No tienen palabras",
+                    "semantic_conclusion": "Insatisfacción generalizada sin especificar detalles.",
+                    "themes": [
+                        "General Dissatisfaction"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Otros Negativos - 0095",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "No especificado.",
+                        "expected_action": "Investigar y abordar la causa de la insatisfacción."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tiene margen de mejora. No fue la mejor experiencia."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tiene margen de mejora. No fue la mejor experiencia.",
+                    "semantic_conclusion": "Evaluación negativa de la experiencia general.",
+                    "themes": [
+                        "Customer Experience",
+                        "Improvement Needed"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Otros Negativos - 0095",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y operaciones.",
+                        "expected_action": "Investigar y mejorar los procesos para evitar experiencias negativas en el futuro."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tras probar otras marcas, me decantó por las otras"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tras probar otras marcas, me decantó por las otras",
+                    "semantic_conclusion": "Elección de Nespresso después de comparar con otras marcas.",
+                    "themes": [
+                        "Brand Comparison",
+                        "Customer Preference"
+                    ],
+                    "sentiment": "positive",
+                    "category": "Otros Positivos - 99",
+                    "details": {
+                        "impact": "Alta satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y ventas.",
+                        "expected_action": "Mantener y mejorar la calidad y competitividad de los productos."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Una cápsula estaba reventada dentro del tubo"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Una cápsula estaba reventada dentro del tubo",
+                    "semantic_conclusion": "Problema con el estado de la cápsula al recibir el producto.",
+                    "themes": [
+                        "Product Quality",
+                        "Packaging Issue"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y mejorar el control de calidad en el embalaje y entrega de productos."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Últimamente, los paquetes de mis pedidos en línea han llegado en mal estado, lo que es preocupante."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Últimamente, los paquetes de mis pedidos en línea han llegado en mal estado, lo que es preocupante.",
+                    "semantic_conclusion": "Problema con el estado de los paquetes al llegar.",
+                    "themes": [
+                        "Entregas",
+                        "Estado del producto"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Preocupación y insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y solucionar el problema de daños en los paquetes durante el transporte."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tuve un problema con los cartuchos y parte de las cápsulas que venían tocados"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tuve un problema con los cartuchos y parte de las cápsulas que venían tocados",
+                    "semantic_conclusion": "Problema con el estado de los cartuchos y cápsulas recibidos.",
+                    "themes": [
+                        "Product Quality",
+                        "Delivery Issues"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y solucionar el problema de calidad en los cartuchos y cápsulas."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Estoy muy decepcionado porque el paquete llegó roto y algunas cápsulas se derramaron."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Estoy muy decepcionado porque el paquete llegó roto",
+                    "semantic_conclusion": "Decepción por el estado del paquete al llegar.",
+                    "themes": [
+                        "Delivery",
+                        "Product Condition"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y mejorar la protección del paquete durante el transporte."
+                    }
+                },
+                {
+                    "text": "y algunas cápsulas se derramaron",
+                    "semantic_conclusion": "Problema con el contenido del paquete debido al daño.",
+                    "themes": [
+                        "Product Damage",
+                        "Loss of Product"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Reembolsar o reemplazar el producto dañado."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "El paquete llegó aplastado y el contenido estaba dañado. Estoy muy decepcionado con el estado en el que llegó mi cafetera. Sin embargo, la profesionalidad y amabilidad de los dependientes en las tiendas de Nespresso son altamente apreciadas."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "El paquete llegó aplastado y el contenido estaba dañado.",
+                    "semantic_conclusion": "El paquete llegó en mal estado y el contenido estaba dañado.",
+                    "themes": [
+                        "Entregas",
+                        "Estado del producto"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la protección y manejo de los paquetes durante el transporte."
+                    }
+                },
+                {
+                    "text": "Estoy muy decepcionado con el estado en el que llegó mi cafetera.",
+                    "semantic_conclusion": "Decepción del cliente con el estado del producto recibido.",
+                    "themes": [
+                        "Customer Satisfaction",
+                        "Product Condition"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la calidad y protección de los productos durante el transporte."
+                    }
+                },
+                {
+                    "text": "Sin embargo, la profesionalidad y amabilidad de los dependientes en las tiendas de Nespresso son altamente apreciadas.",
+                    "semantic_conclusion": "Apreciación del cliente por la profesionalidad y amabilidad del personal en las tiendas de Nespresso.",
+                    "themes": [
+                        "Customer Service",
+                        "Staff Interaction"
+                    ],
+                    "sentiment": "positive",
+                    "category": "BTQ - 97",
+                    "details": {
+                        "impact": "Alta satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Reconocimiento y recompensa al personal eficiente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tuve un problema con el envío recibido, llegó en mal estado. Pero ha sido solventado de manera agil y rápida por el servicio de nespresso. "
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tuve un problema con el envío recibido, llegó en mal estado.",
+                    "semantic_conclusion": "Problema con el estado del envío recibido.",
+                    "themes": [
+                        "Delivery",
+                        "Product Condition"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la calidad del embalaje y el control de calidad en los envíos."
+                    }
+                },
+                {
+                    "text": "Pero ha sido solventado de manera agil y rápida por el servicio de nespresso.",
+                    "semantic_conclusion": "Resolución rápida y eficiente del problema por parte del servicio de atención al cliente.",
+                    "themes": [
+                        "Customer Support",
+                        "Issue Resolution"
+                    ],
+                    "sentiment": "positive",
+                    "category": "CRC - 98",
+                    "details": {
+                        "impact": "Alta satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Mantener y mejorar la eficiencia en la resolución de problemas."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Estoy esperando mi cafetera desde hace mucho tiempo, y el retraso en la entrega está arruinando mi entusiasmo."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Estoy esperando mi cafetera desde hace mucho tiempo",
+                    "semantic_conclusion": "Demora en la entrega del producto.",
+                    "themes": [
+                        "Delivery",
+                        "Waiting Time"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y resolver el retraso en la entrega."
+                    }
+                },
+                {
+                    "text": "y el retraso en la entrega está arruinando mi entusiasmo",
+                    "semantic_conclusion": "Efecto negativo del retraso en la entrega en la satisfacción del cliente.",
+                    "themes": [
+                        "Customer Satisfaction",
+                        "Delivery Experience"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Compensar al cliente por el retraso y mejorar la experiencia de entrega."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "He hecho un pedido el 11de agosto por teléfono y hoy día 19 de agosto no lo he recibido..."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "He hecho un pedido el 11 de agosto por teléfono y hoy día 19 de agosto no lo he recibido",
+                    "semantic_conclusion": "Queja sobre la demora en la entrega de un pedido.",
+                    "themes": [
+                        "Delivery",
+                        "Customer Experience"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0102",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y resolver la demora en la entrega."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Mi cafetera se retrasó dos veces consecutivas, y ya no confío en que llegue a tiempo."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Mi cafetera se retrasó dos veces consecutivas",
+                    "semantic_conclusion": "Demora en la entrega del producto.",
+                    "themes": [
+                        "Delivery",
+                        "Reliability"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0102",
+                    "details": {
+                        "impact": "Pérdida de confianza del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y solucionar los problemas de entrega."
+                    }
+                },
+                {
+                    "text": "y ya no confío en que llegue a tiempo",
+                    "semantic_conclusion": "Pérdida de confianza en la entrega oportuna.",
+                    "themes": [
+                        "Trust",
+                        "Reliability"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0102",
+                    "details": {
+                        "impact": "Pérdida de confianza del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la comunicación y la gestión de expectativas del cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "La entrega programada no la cumplen y ni avisan, nefasto servicio"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "La entrega programada no la cumplen y ni avisan, nefasto servicio",
+                    "semantic_conclusion": "Queja sobre la falta de cumplimiento de la entrega programada y la falta de aviso.",
+                    "themes": [
+                        "Entregas",
+                        "Servicio al cliente"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0102",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la comunicación y el cumplimiento de los plazos de entrega."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "El tiempo de entrega demasiado largo"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "El tiempo de entrega demasiado largo",
+                    "semantic_conclusion": "Queja sobre la demora en la entrega del pedido.",
+                    "themes": [
+                        "Delivery",
+                        "Time Management"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0102",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la gestión del tiempo de entrega y comunicar fechas realistas al cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Mi último pedido tardo en llegar más de 14 días. Nefasto el servicio de entrega."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Mi último pedido tardo en llegar más de 14 días.",
+                    "semantic_conclusion": "Demora en la entrega del pedido.",
+                    "themes": [
+                        "Delivery",
+                        "Timing"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la eficiencia en la entrega y cumplir con los plazos prometidos."
+                    }
+                },
+                {
+                    "text": "Nefasto el servicio de entrega.",
+                    "semantic_conclusion": "Evaluación negativa del servicio de entrega.",
+                    "themes": [
+                        "Delivery",
+                        "Service Quality"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Revisar y mejorar los procesos de entrega para evitar demoras y problemas."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Estoy esperando mi cafetera desde hace mucho tiempo, y el retraso en la entrega está arruinando mi entusiasmo. Encantado por recibir la bolsa de reciclaje."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Estoy esperando mi cafetera desde hace mucho tiempo, y el retraso en la entrega está arruinando mi entusiasmo.",
+                    "semantic_conclusion": "Queja sobre el retraso en la entrega del producto.",
+                    "themes": [
+                        "Delivery",
+                        "Customer Expectations"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y resolver el retraso en la entrega."
+                    }
+                },
+                {
+                    "text": "Encantado por recibir la bolsa de reciclaje.",
+                    "semantic_conclusion": "Agradecimiento por la iniciativa de reciclaje.",
+                    "themes": [
+                        "Sustainability",
+                        "Customer Appreciation"
+                    ],
+                    "sentiment": "positive",
+                    "category": "Reciclaje - 93",
+                    "details": {
+                        "impact": "Alta satisfacción del cliente.",
+                        "responsible_party": "Departamento de sostenibilidad y reciclaje.",
+                        "expected_action": "Continuar y mejorar las iniciativas de reciclaje."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Se equivocaron con mi último pedido duplicando el número de cápsulas, y tardaron mucho en hacer la devolución."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Se equivocaron con mi último pedido duplicando el número de cápsulas",
+                    "semantic_conclusion": "Error en el pedido, duplicación de productos.",
+                    "themes": [
+                        "Order Error",
+                        "Product Duplication"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Revisar y mejorar los procesos de preparación de pedidos."
+                    }
+                },
+                {
+                    "text": "y tardaron mucho en hacer la devolución",
+                    "semantic_conclusion": "Demora en la devolución del pedido.",
+                    "themes": [
+                        "Return Process",
+                        "Delay"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la eficiencia en el proceso de devolución."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Recibí mi pedido de Nespresso, pero faltaban varias cápsulas. Llamé y me aseguraron que enviarían las faltantes, pero aún no han llegado."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Recibí mi pedido de Nespresso, pero faltaban varias cápsulas.",
+                    "semantic_conclusion": "Error en el pedido, faltan productos.",
+                    "themes": [
+                        "Order Error",
+                        "Missing Products"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y corregir el error, enviar los productos faltantes."
+                    }
+                },
+                {
+                    "text": "Llamé y me aseguraron que enviarían las faltantes, pero aún no han llegado.",
+                    "semantic_conclusion": "Falta de seguimiento y resolución del problema.",
+                    "themes": [
+                        "Customer Support",
+                        "Issue Resolution"
+                    ],
+                    "sentiment": "negative",
+                    "category": "CRC - 04",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Investigar y resolver el problema, enviar los productos faltantes y mejorar la comunicación."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Realicé un pedido grande de Nespresso, pero al revisar, faltaban varios productos."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Realicé un pedido grande de Nespresso, pero al revisar, faltaban varios productos.",
+                    "semantic_conclusion": "Queja sobre la falta de productos en un pedido grande.",
+                    "themes": [
+                        "Order Fulfillment",
+                        "Product Availability"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y resolver la falta de productos en el pedido."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Me enviaron un producto equivocado, y ahora tengo que lidiar con la molestia de la devolución."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Me enviaron un producto equivocado",
+                    "semantic_conclusion": "Error en el envío del producto.",
+                    "themes": [
+                        "Order Error",
+                        "Product Issue"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Reenvío del producto correcto y compensación al cliente."
+                    }
+                },
+                {
+                    "text": "y ahora tengo que lidiar con la molestia de la devolución",
+                    "semantic_conclusion": "Inconveniente y molestia causada por la devolución.",
+                    "themes": [
+                        "Return Process",
+                        "Customer Inconvenience"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar el proceso de devolución y ofrecer soluciones para minimizar la molestia al cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Mi pedido llegó incorrectamente y ahora tengo que esperar a que se resuelva."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Mi pedido llegó incorrectamente",
+                    "semantic_conclusion": "El pedido fue entregado de manera incorrecta.",
+                    "themes": [
+                        "Order Fulfillment",
+                        "Delivery Issues"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y corregir el error de entrega."
+                    }
+                },
+                {
+                    "text": "y ahora tengo que esperar a que se resuelva",
+                    "semantic_conclusion": "El cliente tiene que esperar a que se resuelva el problema.",
+                    "themes": [
+                        "Customer Experience",
+                        "Issue Resolution"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y logística.",
+                        "expected_action": "Resolver el problema de manera eficiente y comunicar al cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Me enviaron una cafetera que no coincide en absoluto con lo que pedí. Esto es una gran molestia."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Me enviaron una cafetera que no coincide en absoluto con lo que pedí.",
+                    "semantic_conclusion": "Error en el pedido, el producto recibido no coincide con lo solicitado.",
+                    "themes": [
+                        "Order Error",
+                        "Product Mismatch"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0103",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Reembolso o reemplazo del producto incorrecto."
+                    }
+                },
+                {
+                    "text": "Esto es una gran molestia.",
+                    "semantic_conclusion": "Evaluación negativa de la experiencia del cliente.",
+                    "themes": [
+                        "Customer Frustration",
+                        "Dissatisfaction"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Otros Negativos - 0095",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Gestión de la queja y resolución del problema."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Estoy molesto porque falta una pieza importante en mi pedido y no puedo utilizar el producto."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Estoy molesto porque falta una pieza importante en mi pedido y no puedo utilizar el producto.",
+                    "semantic_conclusion": "Queja por falta de pieza importante en el pedido y consecuente imposibilidad de uso del producto.",
+                    "themes": [
+                        "Pedido incompleto",
+                        "Problemas con el producto"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0103",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y solucionar el problema de inmediato, proporcionando la pieza faltante o reemplazando el producto si es necesario."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Pedí cápsulas de café específicas y me dieron una variedad diferente que no quería."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Pedí cápsulas de café específicas y me dieron una variedad diferente que no quería.",
+                    "semantic_conclusion": "Error en el pedido, recibió un producto diferente al solicitado.",
+                    "themes": [
+                        "Order Error",
+                        "Product Mismatch"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0103",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Revisar y corregir el proceso de pedido y entrega."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Cometieron un error en mi pedido y en lugar de las cápsulas de café que pedí, recibí tazas de café. Eso no es lo que esperaba."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Cometieron un error en mi pedido",
+                    "semantic_conclusion": "Error en el pedido.",
+                    "themes": [
+                        "Order Error",
+                        "Customer Dissatisfaction"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0103",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Revisar y corregir el proceso de pedido."
+                    }
+                },
+                {
+                    "text": "y en lugar de las cápsulas de café que pedí, recibí tazas de café.",
+                    "semantic_conclusion": "Discrepancia entre el pedido y lo recibido.",
+                    "themes": [
+                        "Order Inaccuracy",
+                        "Product Mismatch"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0103",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Revisar y corregir el proceso de pedido."
+                    }
+                },
+                {
+                    "text": "Eso no es lo que esperaba.",
+                    "semantic_conclusion": "Insatisfacción con la experiencia de compra.",
+                    "themes": [
+                        "Customer Expectations",
+                        "Dissatisfaction"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0103",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la comunicación y el proceso de pedido."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "El pedido llegó con una pieza faltante, lo que afecta gravemente su funcionalidad. Además, cuando compré la cafetera, la caja estaba rota y el asa de la cafetera estaba partida en dos. ¿Qué tipo de servicio es este?"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "El pedido llegó con una pieza faltante, lo que afecta gravemente su funcionalidad.",
+                    "semantic_conclusion": "Queja sobre la falta de una pieza en el pedido y su impacto en la funcionalidad.",
+                    "themes": [
+                        "Pedido incompleto",
+                        "Problemas de funcionalidad"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Reenvío de la pieza faltante y solución al problema de funcionalidad."
+                    }
+                },
+                {
+                    "text": "la caja estaba rota y el asa de la cafetera estaba partida en dos.",
+                    "semantic_conclusion": "Queja sobre el estado dañado de la caja y la cafetera al recibir el pedido.",
+                    "themes": [
+                        "Daño en el producto",
+                        "Problemas de calidad"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Reemplazo del producto dañado y solución al problema de calidad."
+                    }
+                },
+                {
+                    "text": "¿Qué tipo de servicio es este?",
+                    "semantic_conclusion": "Queja general sobre la calidad del servicio recibido.",
+                    "themes": [
+                        "Insatisfacción con el servicio",
+                        "Expectativas no cumplidas"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Otros Negativos - 00",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y logística.",
+                        "expected_action": "Mejora en la calidad del servicio y solución a los problemas presentados."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Nespresso & You promete cuidar a sus clientes, pero como cliente de mucho tiempo, no veo evidencia de ello. Además, el pedido llegó sin una pieza, lo cual afecta gravemente su funcionamiento."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Nespresso & You promete cuidar a sus clientes, pero como cliente de mucho tiempo, no veo evidencia de ello.",
+                    "semantic_conclusion": "Insatisfacción con el programa de fidelidad y la atención al cliente.",
+                    "themes": [
+                        "Customer Service",
+                        "Loyalty Program"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y marketing.",
+                        "expected_action": "Revisar y mejorar el programa de fidelidad y la atención al cliente."
+                    }
+                },
+                {
+                    "text": "Además, el pedido llegó sin una pieza, lo cual afecta gravemente su funcionamiento.",
+                    "semantic_conclusion": "Problema con el pedido y la entrega.",
+                    "themes": [
+                        "Order Fulfillment",
+                        "Product Quality"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0103",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y solucionar el problema de entrega y reembolsar o reemplazar el producto."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "yo recomiendo Nespresso, pero creo que la empres de mensajeria por la cual me enviaron el pedido es pesima."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "yo recomiendo Nespresso",
+                    "semantic_conclusion": "Recomendación positiva de Nespresso.",
+                    "themes": [
+                        "Customer Recommendation",
+                        "Brand Loyalty"
+                    ],
+                    "sentiment": "positive",
+                    "category": "Otros Positivos - 99",
+                    "details": {
+                        "impact": "Alta satisfacción del cliente.",
+                        "responsible_party": "Nespresso en general.",
+                        "expected_action": "Mantener y mejorar la calidad del servicio y productos."
+                    }
+                },
+                {
+                    "text": "pero creo que la empresa de mensajeria por la cual me enviaron el pedido es pesima",
+                    "semantic_conclusion": "Evaluación negativa de la empresa de mensajería utilizada.",
+                    "themes": [
+                        "Delivery",
+                        "Third-Party Service"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Empresa de mensajería.",
+                        "expected_action": "Reevaluar y mejorar la selección de empresas de mensajería."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tuve un problema al recibir aviso de que el pedido había sido entregado y no fue así, hablé con el repartidor lo habia dejado en la dirección indicada siendo mentira, y que volvería a hablar con el y me dirían algo. nadie volvió a contactarme. Encontré la caja en el restaurante al dia siguiente, cuando especifica la dirección que es el 1ª. Al restaurante llegan infinidad de cajas y pedidos y luego es díficl saber quien lo recoge y donde lo pone."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tuve un problema al recibir aviso de que el pedido había sido entregado y no fue así",
+                    "semantic_conclusion": "Problema con la entrega del pedido.",
+                    "themes": [
+                        "Entregas",
+                        "Problemas de entrega"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0102",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y resolver el problema de entrega."
+                    }
+                },
+                {
+                    "text": "hablé con el repartidor lo habia dejado en la dirección indicada siendo mentira",
+                    "semantic_conclusion": "Problema con la comunicación del repartidor.",
+                    "themes": [
+                        "Comunicación",
+                        "Repartidor"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Capacitar al repartidor para mejorar la comunicación."
+                    }
+                },
+                {
+                    "text": "y que volvería a hablar con el y me dirían algo. nadie volvió a contactarme",
+                    "semantic_conclusion": "Falta de seguimiento y comunicación.",
+                    "themes": [
+                        "Comunicación",
+                        "Seguimiento"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar el seguimiento y la comunicación con el cliente."
+                    }
+                },
+                {
+                    "text": "Encontré la caja en el restaurante al dia siguiente, cuando especifica la dirección que es el 1ª",
+                    "semantic_conclusion": "Problema con la entrega en la dirección incorrecta.",
+                    "themes": [
+                        "Entregas",
+                        "Dirección incorrecta"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0103",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Verificar la dirección de entrega y corregir el error."
+                    }
+                },
+                {
+                    "text": "Al restaurante llegan infinidad de cajas y pedidos y luego es díficl saber quien lo recoge y donde lo pone",
+                    "semantic_conclusion": "Problema con la gestión de pedidos en el restaurante.",
+                    "themes": [
+                        "Gestión de pedidos",
+                        "Restaurante"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la gestión de pedidos en el restaurante."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tuve que realizar un nuevo pedido porque la empresa de transporte afirmó que no estábamos en casa, lo cual no era cierto."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tuve que realizar un nuevo pedido porque la empresa de transporte afirmó que no estábamos en casa, lo cual no era cierto.",
+                    "semantic_conclusion": "Problema con la entrega debido a un error en la información proporcionada por la empresa de transporte.",
+                    "themes": [
+                        "Entregas",
+                        "Problemas con la empresa de transporte"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Inconveniente y frustración para el cliente.",
+                        "responsible_party": "Empresa de transporte.",
+                        "expected_action": "Mejorar la comunicación y la precisión en la información proporcionada por la empresa de transporte."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tuve que desplazarme a un centro de recogida debido a problemas con la entrega, a pesar de haber solicitado la entrega a domicilio."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tuve que desplazarme a un centro de recogida debido a problemas con la entrega",
+                    "semantic_conclusion": "Problemas con la entrega que requirieron la recogida en un centro.",
+                    "themes": [
+                        "Entrega",
+                        "Problemas logísticos"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Inconveniente y molestia para el cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la eficiencia en la entrega y evitar problemas similares en el futuro."
+                    }
+                },
+                {
+                    "text": "a pesar de haber solicitado la entrega a domicilio",
+                    "semantic_conclusion": "Inconformidad con el servicio de entrega a domicilio.",
+                    "themes": [
+                        "Entrega a domicilio",
+                        "Servicio de entrega"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Inconveniente y molestia para el cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la eficiencia en la entrega y evitar problemas similares en el futuro."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "tuve problemas en la compañía de reparto."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "tuve problemas en la compañía de reparto",
+                    "semantic_conclusion": "Problemas con la empresa de logística.",
+                    "themes": [
+                        "Delivery",
+                        "Logistics"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y resolver problemas con la empresa de reparto."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Todo perfecto menos el servicio de mensajería que falla de vez en cuando,"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Todo perfecto menos el servicio de mensajería que falla de vez en cuando",
+                    "semantic_conclusion": "Evaluación mixta del servicio, con una crítica específica al servicio de mensajería.",
+                    "themes": [
+                        "Servicio de mensajería",
+                        "Problemas de entrega"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente con el servicio de mensajería.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Mejorar la fiabilidad y eficiencia del servicio de mensajería."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Necesitaba el café y por problemas de Seur no me llegó a tiempo"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Necesitaba el café y por problemas de Seur no me llegó a tiempo",
+                    "semantic_conclusion": "Problemas con la entrega del café debido a la empresa de logística.",
+                    "themes": [
+                        "Delivery",
+                        "Logistics"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Empresa de logística (Seur).",
+                        "expected_action": "Mejorar la comunicación con la empresa de logística para evitar retrasos."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "El repartidor de MRW entregó mi paquete tarde y no ofreció ninguna explicación o disculpa."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "El repartidor de MRW entregó mi paquete tarde",
+                    "semantic_conclusion": "Demora en la entrega del paquete.",
+                    "themes": [
+                        "Delivery",
+                        "Logistics"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0102",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "MRW (empresa de logística).",
+                        "expected_action": "Mejorar la puntualidad en las entregas y ofrecer explicaciones o disculpas cuando corresponda."
+                    }
+                },
+                {
+                    "text": "y no ofreció ninguna explicación o disculpa",
+                    "semantic_conclusion": "Falta de comunicación y disculpa por parte del repartidor.",
+                    "themes": [
+                        "Customer Service",
+                        "Communication"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "MRW (empresa de logística).",
+                        "expected_action": "Capacitar al personal para ofrecer explicaciones y disculpas cuando corresponda."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Estoy muy insatisfecho con el servicio de mensajería DHL debido a entregas incorrectas y tardías."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Estoy muy insatisfecho con el servicio de mensajería DHL",
+                    "semantic_conclusion": "Insatisfacción con el servicio de mensajería DHL.",
+                    "themes": [
+                        "Servicio de mensajería",
+                        "Insatisfacción del cliente"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Servicio de mensajería DHL.",
+                        "expected_action": "Mejorar la calidad del servicio de mensajería."
+                    }
+                },
+                {
+                    "text": "debido a entregas incorrectas y tardías",
+                    "semantic_conclusion": "Problemas con la entrega, incluyendo errores y retrasos.",
+                    "themes": [
+                        "Entregas incorrectas",
+                        "Retrasos en la entrega"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Servicio de mensajería DHL.",
+                        "expected_action": "Mejorar la precisión y rapidez de las entregas."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "El transporte pesimo, tarde  e incompleto"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "El transporte pesimo, tarde  e incompleto",
+                    "semantic_conclusion": "Queja sobre el transporte, retraso y entrega incompleta.",
+                    "themes": [
+                        "Transporte",
+                        "Entrega"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 0104",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y mejorar la eficiencia en el transporte y entrega."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Un ajuste de precios podría ser beneficioso para alcanzar a un público más amplio."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Un ajuste de precios podría ser beneficioso para alcanzar a un público más amplio.",
+                    "semantic_conclusion": "Sugerencia de ajustar los precios para aumentar la accesibilidad al producto.",
+                    "themes": [
+                        "Precio",
+                        "Accesibilidad"
+                    ],
+                    "sentiment": "positive",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Potencial aumento en la accesibilidad y atractivo del producto.",
+                        "responsible_party": "Departamento de marketing y ventas.",
+                        "expected_action": "Revisar y considerar ajustes en la estrategia de precios."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Estos productos merecen ser más accesibles en términos de precio."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Estos productos merecen ser más accesibles en términos de precio.",
+                    "semantic_conclusion": "Queja sobre el precio de los productos.",
+                    "themes": [
+                        "Precio",
+                        "Accesibilidad"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente con el precio.",
+                        "responsible_party": "Departamento de marketing y ventas.",
+                        "expected_action": "Revisar y ajustar los precios para hacerlos más accesibles."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "La empresa debería ser más considerada con los precios de estos productos."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "La empresa debería ser más considerada con los precios de estos productos.",
+                    "semantic_conclusion": "Queja sobre los precios de los productos.",
+                    "themes": [
+                        "Precio",
+                        "Valor"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente con los precios.",
+                        "responsible_party": "Departamento de marketing y ventas.",
+                        "expected_action": "Revisar y ajustar los precios para mejorar la competitividad."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Estos productos deberían ser más asequibles para llegar a más personas."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Estos productos deberían ser más asequibles para llegar a más personas.",
+                    "semantic_conclusion": "Sugerencia para mejorar la accesibilidad de los productos a través de precios más asequibles.",
+                    "themes": [
+                        "Precio",
+                        "Accesibilidad"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Deseo de mejorar la accesibilidad de los productos.",
+                        "responsible_party": "Departamento de marketing y ventas.",
+                        "expected_action": "Revisar y ajustar los precios para mejorar la accesibilidad."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "El café es caro"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "El café es caro",
+                    "semantic_conclusion": "Queja sobre el precio del café.",
+                    "themes": [
+                        "Precio",
+                        "Valor"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente con el precio.",
+                        "responsible_party": "Departamento de marketing y ventas.",
+                        "expected_action": "Revisar y ajustar los precios según sea necesario."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "es un producto de precio elevado"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "es un producto de precio elevado",
+                    "semantic_conclusion": "Evaluación negativa del precio del producto.",
+                    "themes": [
+                        "Precio",
+                        "Valor"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y ventas.",
+                        "expected_action": "Revisar y ajustar la estrategia de precios."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Los precios elevados de estos productos son una carga para mi presupuesto."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Los precios elevados de estos productos son una carga para mi presupuesto.",
+                    "semantic_conclusion": "Queja sobre los precios altos de los productos.",
+                    "themes": [
+                        "Precio",
+                        "Presupuesto"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y ventas.",
+                        "expected_action": "Revisar y ajustar los precios para mejorar la competitividad."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "No puedo creer lo costosos que son estos productos; es un verdadero robo. A pesar de eso, disfruto mucho del rico sabor y la variedad de opciones que ofrecen."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "No puedo creer lo costosos que son estos productos; es un verdadero robo.",
+                    "semantic_conclusion": "Queja sobre el precio de los productos.",
+                    "themes": [
+                        "Precio",
+                        "Valor"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y ventas.",
+                        "expected_action": "Revisar y ajustar la estrategia de precios."
+                    }
+                },
+                {
+                    "text": "A pesar de eso, disfruto mucho del rico sabor y la variedad de opciones que ofrecen.",
+                    "semantic_conclusion": "Evaluación positiva del sabor y variedad de opciones.",
+                    "themes": [
+                        "Sabor",
+                        "Variedad"
+                    ],
+                    "sentiment": "positive",
+                    "category": "Mkt & Promociones - 92",
+                    "details": {
+                        "impact": "Alta satisfacción del cliente.",
+                        "responsible_party": "Departamento de productos y desarrollo.",
+                        "expected_action": "Mantener y mejorar la calidad y variedad de productos."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tuve un pequeño inconveniente con una devolución, pero por lo demás, todo bien."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tuve un pequeño inconveniente con una devolución",
+                    "semantic_conclusion": "Experiencia negativa con el proceso de devolución.",
+                    "themes": [
+                        "Return Policy",
+                        "Customer Experience"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y logística.",
+                        "expected_action": "Revisar y mejorar el proceso de devolución."
+                    }
+                },
+                {
+                    "text": "pero por lo demás, todo bien",
+                    "semantic_conclusion": "Evaluación general positiva de la experiencia.",
+                    "themes": [
+                        "Customer Satisfaction",
+                        "Overall Experience"
+                    ],
+                    "sentiment": "positive",
+                    "category": "Otros Positivos - 99",
+                    "details": {
+                        "impact": "Alta satisfacción del cliente.",
+                        "responsible_party": "General",
+                        "expected_action": "Mantener y mejorar la experiencia del cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tras un problema con mi máquina en garantía, tuve que pagar por la reparación debido a la falta de ticket de compra."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tras un problema con mi máquina en garantía",
+                    "semantic_conclusion": "Problema con la máquina dentro del período de garantía.",
+                    "themes": [
+                        "Product Issue",
+                        "Warranty"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Servicio Técnico - 04",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de servicio técnico.",
+                        "expected_action": "Revisar y mejorar el proceso de garantía."
+                    }
+                },
+                {
+                    "text": "tuve que pagar por la reparación debido a la falta de ticket de compra",
+                    "semantic_conclusion": "Reparación pagada por el cliente debido a la falta de documentación.",
+                    "themes": [
+                        "Payment Issue",
+                        "Lack of Documentation"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de servicio técnico y atención al cliente.",
+                        "expected_action": "Mejorar la comunicación y el proceso de documentación para evitar situaciones similares."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tras ofrecerme una taza por mi compra y corroborarlo telefónicamente con un trabajador de Nespresso, no le llegó nada en la caja del pedido de dicha raza promocionada y conseguida por el número de cápsulas compradas."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tras ofrecerme una taza por mi compra y corroborarlo telefónicamente con un trabajador de Nespresso",
+                    "semantic_conclusion": "Oferta de un producto adicional por la compra realizada y confirmación telefónica con un trabajador de Nespresso.",
+                    "themes": [
+                        "Customer Service",
+                        "Promotional Offer"
+                    ],
+                    "sentiment": "neutral",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Expectativa de recibir el producto adicional.",
+                        "responsible_party": "Departamento de atención al cliente y marketing.",
+                        "expected_action": "Cumplir con la oferta realizada y entregar el producto adicional."
+                    }
+                },
+                {
+                    "text": "no le llegó nada en la caja del pedido de dicha raza promocionada y conseguida por el número de cápsulas compradas",
+                    "semantic_conclusion": "Falta de entrega del producto adicional promocionado y confirmado.",
+                    "themes": [
+                        "Order Fulfillment",
+                        "Missing Item"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Entregas - 01",
+                    "details": {
+                        "impact": "Insatisfacción del cliente por no recibir el producto adicional.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Investigar y solucionar el problema de entrega del producto adicional."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tenía un descuento en cápsulas, pero las enviaron sin preguntar si me venía bien o no."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tenía un descuento en cápsulas, pero las enviaron sin preguntar si me venía bien o no.",
+                    "semantic_conclusion": "Queja sobre la falta de comunicación y consideración en la entrega de un descuento.",
+                    "themes": [
+                        "Customer Service",
+                        "Communication"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Mejorar la comunicación con los clientes sobre promociones y descuentos."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Nunca me informan de las nuevas promociones, y esto me hace sentir que no valoran a los clientes."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Nunca me informan de las nuevas promociones",
+                    "semantic_conclusion": "Falta de información sobre promociones para clientes.",
+                    "themes": [
+                        "Marketing",
+                        "Promotions"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Mejorar la comunicación de promociones a los clientes."
+                    }
+                },
+                {
+                    "text": "y esto me hace sentir que no valoran a los clientes",
+                    "semantic_conclusion": "Percepción de falta de valoración hacia los clientes.",
+                    "themes": [
+                        "Customer Value",
+                        "Loyalty"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y marketing.",
+                        "expected_action": "Revisar y mejorar las estrategias de valoración y recompensa a los clientes."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "No estoy satisfecho con las opciones de garantía que ofrece esta empresa."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "No estoy satisfecho con las opciones de garantía que ofrece esta empresa.",
+                    "semantic_conclusion": "Insatisfacción con las opciones de garantía ofrecidas.",
+                    "themes": [
+                        "Garantía",
+                        "Satisfacción del cliente"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de garantías y servicios.",
+                        "expected_action": "Revisar y mejorar las opciones de garantía para aumentar la satisfacción del cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "La empresa necesita mejorar urgentemente su política de garantía. La experiencia del cliente es mala."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "La empresa necesita mejorar urgentemente su política de garantía.",
+                    "semantic_conclusion": "Crítica a la política de garantía de la empresa.",
+                    "themes": [
+                        "Warranty Policy",
+                        "Customer Experience"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y gestión de garantías.",
+                        "expected_action": "Revisar y mejorar la política de garantía para aumentar la satisfacción del cliente."
+                    }
+                },
+                {
+                    "text": "La experiencia del cliente es mala.",
+                    "semantic_conclusion": "Evaluación negativa de la experiencia del cliente.",
+                    "themes": [
+                        "Customer Experience",
+                        "Satisfaction"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Investigar y abordar las causas de la mala experiencia del cliente para mejorar la satisfacción."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Los costos de envío son excesivos y deberían eliminarse. Sólo encarecen las compras."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Los costos de envío son excesivos y deberían eliminarse.",
+                    "semantic_conclusion": "Queja sobre los costos de envío y sugerencia de eliminarlos.",
+                    "themes": [
+                        "Shipping Costs",
+                        "Customer Expectations"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Revisar y ajustar los costos de envío para mejorar la experiencia del cliente."
+                    }
+                },
+                {
+                    "text": "Sólo encarecen las compras.",
+                    "semantic_conclusion": "Percepción de que los costos de envío aumentan el precio de las compras.",
+                    "themes": [
+                        "Pricing",
+                        "Customer Perception"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y entrega.",
+                        "expected_action": "Revisar y ajustar los costos de envío para mejorar la experiencia del cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Últimamente, mi percepción de Nespresso ha disminuido debido a su enfoque en promocionar nuevas cápsulas que no me atraen, y a un incremento de precios que parece estar oculto."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Últimamente, mi percepción de Nespresso ha disminuido debido a su enfoque en promocionar nuevas cápsulas que no me atraen",
+                    "semantic_conclusion": "Disminución de la percepción positiva del cliente debido a la promoción de productos no atractivos.",
+                    "themes": [
+                        "Marketing Strategy",
+                        "Product Offerings"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0206",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Reevaluar la estrategia de promoción y ofrecer productos más atractivos para los clientes."
+                    }
+                },
+                {
+                    "text": "y a un incremento de precios que parece estar oculto",
+                    "semantic_conclusion": "Incremento de precios percibido como oculto y no transparente.",
+                    "themes": [
+                        "Pricing",
+                        "Transparency"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de finanzas y precios.",
+                        "expected_action": "Mejorar la transparencia en la política de precios y comunicar los cambios de manera clara."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "La empresa prometió cambiar el producto por uno nuevo, pero nunca lo hizo; francamente, eso es un pésimo servicio. Por otro lado, el sitio web de esta marca de café es realmente un éxito total; los pagos en línea funcionan increíblemente bien."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "La empresa prometió cambiar el producto por uno nuevo, pero nunca lo hizo; francamente, eso es un pésimo servicio.",
+                    "semantic_conclusion": "Queja sobre el incumplimiento de la promesa de cambiar el producto y mala calidad del servicio.",
+                    "themes": [
+                        "Customer Service",
+                        "Product Replacement"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y logística.",
+                        "expected_action": "Cumplir con las promesas y mejorar la calidad del servicio."
+                    }
+                },
+                {
+                    "text": "Por otro lado, el sitio web de esta marca de café es realmente un éxito total; los pagos en línea funcionan increíblemente bien.",
+                    "semantic_conclusion": "Evaluación positiva del sitio web y el proceso de pago en línea.",
+                    "themes": [
+                        "Website",
+                        "Online Payment"
+                    ],
+                    "sentiment": "positive",
+                    "category": "Website - 95",
+                    "details": {
+                        "impact": "Alta satisfacción del cliente.",
+                        "responsible_party": "Departamento de tecnología y desarrollo web.",
+                        "expected_action": "Mantener y mejorar la calidad del sitio web y el proceso de pago en línea."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Ya no hay nada que hacer. La próxima vez tendré más cuidado con sus promociones engañosas,"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Ya no hay nada que hacer. La próxima vez tendré más cuidado con sus promociones engañosas",
+                    "semantic_conclusion": "Queja sobre promociones engañosas y falta de confianza en la empresa.",
+                    "themes": [
+                        "Marketing",
+                        "Promociones"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0203",
+                    "details": {
+                        "impact": "Pérdida de confianza del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar la transparencia en las promociones."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Visité la tienda para comprar cápsulas de café Vertuo porque habia visto repetidamente una promoción de 60 cápsulas de regalo que actualmente continua publicándose.  Lamento decir que considero que es una publicidad engañosa ya que me explicaron que es solamente para los clientes que reciben un mail con la oferta."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "tienda física",
+                "channel_of_communication": "presencial",
+                "additional_info": {
+                    "customer_id": "no proporcionado",
+                    "order_id": "no proporcionado"
+                }
+            },
+            "units": [
+                {
+                    "text": "Visité la tienda para comprar cápsulas de café Vertuo porque habia visto repetidamente una promoción de 60 cápsulas de regalo que actualmente continua publicándose.",
+                    "semantic_conclusion": "Motivación para visitar la tienda debido a una promoción publicitaria.",
+                    "themes": [
+                        "Publicidad",
+                        "Promociones"
+                    ],
+                    "sentiment": "neutral",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Interés inicial en la promoción.",
+                        "responsible_party": "Departamento de marketing.",
+                        "expected_action": "Verificar la claridad y precisión de la publicidad."
+                    }
+                },
+                {
+                    "text": "Lamento decir que considero que es una publicidad engañosa ya que me explicaron que es solamente para los clientes que reciben un mail con la oferta.",
+                    "semantic_conclusion": "Percepción de publicidad engañosa debido a la falta de claridad en la promoción.",
+                    "themes": [
+                        "Publicidad",
+                        "Transparencia"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing.",
+                        "expected_action": "Revisar y mejorar la claridad en la publicidad para evitar malentendidos."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Una promoción real que tenía fue negada por la empresa, lo que me hizo sentir engañada."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Una promoción real que tenía fue negada por la empresa, lo que me hizo sentir engañada.",
+                    "semantic_conclusion": "Queja sobre la negación de una promoción válida y sentimiento de engaño.",
+                    "themes": [
+                        "Promociones",
+                        "Experiencia del cliente"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar la gestión de promociones para evitar malentendidos."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Totalmente las explicaciones que me dieron, no se ajustaban a la realidad, tomadura de pelo en las promociones."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Totalmente las explicaciones que me dieron, no se ajustaban a la realidad",
+                    "semantic_conclusion": "Descontento con la información proporcionada.",
+                    "themes": [
+                        "Customer Service",
+                        "Information Accuracy"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Mejorar la precisión y claridad en la información proporcionada."
+                    }
+                },
+                {
+                    "text": "tomadura de pelo en las promociones",
+                    "semantic_conclusion": "Descontento con las promociones y ofertas.",
+                    "themes": [
+                        "Promotions",
+                        "Deception"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar las promociones para evitar decepciones."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Te venden algo que no cumple con lo que dicen, me parece una posventa malísima,"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Te venden algo que no cumple con lo que dicen",
+                    "semantic_conclusion": "Queja sobre la falta de cumplimiento de las expectativas del producto.",
+                    "themes": [
+                        "Product Quality",
+                        "Sales Experience"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de ventas y marketing.",
+                        "expected_action": "Revisar y mejorar la comunicación de las características y beneficios del producto."
+                    }
+                },
+                {
+                    "text": "me parece una posventa malísima",
+                    "semantic_conclusion": "Evaluación negativa de la atención al cliente después de la venta.",
+                    "themes": [
+                        "Customer Support",
+                        "After-Sales Service"
+                    ],
+                    "sentiment": "negative",
+                    "category": "CRC - 08",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Mejorar la calidad y eficiencia de la atención al cliente después de la venta."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Compré un producto basado en su publicidad, pero resultó ser una decepción total."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Compré un producto basado en su publicidad, pero resultó ser una decepción total.",
+                    "semantic_conclusion": "Decepción con el producto debido a la publicidad engañosa.",
+                    "themes": [
+                        "Publicidad",
+                        "Expectativas vs. Realidad"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0203",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y publicidad.",
+                        "expected_action": "Revisar y mejorar la precisión de la publicidad para evitar expectativas no realistas."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Los anuncios de esta empresa son pura fantasía. No se apegan a la realidad."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Los anuncios de esta empresa son pura fantasía. No se apegan a la realidad.",
+                    "semantic_conclusion": "Crítica a la publicidad de la empresa por no reflejar la realidad.",
+                    "themes": [
+                        "Publicidad",
+                        "Expectativas vs. Realidad"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0203",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y publicidad.",
+                        "expected_action": "Revisar y ajustar la publicidad para que se apegue a la realidad y cumpla con las expectativas del cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Me engañaron con la publicidad de esta empresa. No volveré a confiar en ellos."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Me engañaron con la publicidad de esta empresa.",
+                    "semantic_conclusion": "Queja sobre la publicidad engañosa de la empresa.",
+                    "themes": [
+                        "Publicidad",
+                        "Confianza"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0203",
+                    "details": {
+                        "impact": "Pérdida de confianza del cliente.",
+                        "responsible_party": "Departamento de marketing y publicidad.",
+                        "expected_action": "Revisar y mejorar la publicidad para evitar engaños."
+                    }
+                },
+                {
+                    "text": "No volveré a confiar en ellos.",
+                    "semantic_conclusion": "Pérdida de confianza y lealtad del cliente.",
+                    "themes": [
+                        "Confianza",
+                        "Lealtad"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Pérdida de un cliente potencialmente leal.",
+                        "responsible_party": "Departamento de marketing y publicidad.",
+                        "expected_action": "Mejorar la transparencia y honestidad en la publicidad para recuperar la confianza del cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Los anuncios son engañosos. La empresa promete cosas que no cumple. Me gustaría que los productos fueran más fáciles de encontrar."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Los anuncios son engañosos",
+                    "semantic_conclusion": "Crítica a la publicidad por ser engañosa.",
+                    "themes": [
+                        "Publicidad",
+                        "Expectativas no cumplidas"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0203",
+                    "details": {
+                        "impact": "Desconfianza y decepción del cliente.",
+                        "responsible_party": "Departamento de marketing y publicidad.",
+                        "expected_action": "Revisar y mejorar la publicidad para que sea más precisa y transparente."
+                    }
+                },
+                {
+                    "text": "La empresa promete cosas que no cumple",
+                    "semantic_conclusion": "Crítica a la empresa por no cumplir con sus promesas.",
+                    "themes": [
+                        "Cumplimiento de promesas",
+                        "Confianza"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Pérdida de confianza del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y gestión de expectativas.",
+                        "expected_action": "Mejorar la comunicación y gestión de expectativas para evitar promesas incumplidas."
+                    }
+                },
+                {
+                    "text": "Me gustaría que los productos fueran más fáciles de encontrar",
+                    "semantic_conclusion": "Sugerencia para mejorar la disponibilidad y accesibilidad de los productos.",
+                    "themes": [
+                        "Disponibilidad de productos",
+                        "Accesibilidad"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Inconveniencia y frustración del cliente.",
+                        "responsible_party": "Departamento de logística y gestión de inventario.",
+                        "expected_action": "Mejorar la gestión de inventario y la disponibilidad de productos para facilitar su búsqueda y compra."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "No han hecho lo que prometieron El café no sale muy caliente , está es la pega que yo veo"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "No han hecho lo que prometieron",
+                    "semantic_conclusion": "Incumplimiento de promesas realizadas por la empresa.",
+                    "themes": [
+                        "Customer Expectations",
+                        "Promises Not Kept"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0203",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar las promesas y expectativas creadas."
+                    }
+                },
+                {
+                    "text": "El café no sale muy caliente",
+                    "semantic_conclusion": "Problema con la temperatura del café.",
+                    "themes": [
+                        "Product Quality",
+                        "Temperature Issues"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0207",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de productos y calidad.",
+                        "expected_action": "Revisar y mejorar la calidad del café y su temperatura."
+                    }
+                },
+                {
+                    "text": "está es la pega que yo veo",
+                    "semantic_conclusion": "Identificación de un problema específico por parte del cliente.",
+                    "themes": [
+                        "Customer Feedback",
+                        "Problem Identification"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Otros Negativos - 0095",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Escuchar y abordar las preocupaciones del cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Los anuncios son engañosos y la empresa promete cosas que no cumple. A pesar de eso, lo único que realmente mejoraría es el reciclaje de las cápsulas."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Los anuncios son engañosos y la empresa promete cosas que no cumple",
+                    "semantic_conclusion": "Crítica a la publicidad y promesas incumplidas de la empresa.",
+                    "themes": [
+                        "Publicidad",
+                        "Promesas incumplidas"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0203",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y publicidad.",
+                        "expected_action": "Revisar y mejorar la publicidad para que sea más precisa y transparente."
+                    }
+                },
+                {
+                    "text": "A pesar de eso, lo único que realmente mejoraría es el reciclaje de las cápsulas",
+                    "semantic_conclusion": "Sugerencia para mejorar el reciclaje de las cápsulas.",
+                    "themes": [
+                        "Reciclaje",
+                        "Sostenibilidad"
+                    ],
+                    "sentiment": "neutral",
+                    "category": "Reciclaje - 0301",
+                    "details": {
+                        "impact": "Oportunidad para mejorar la sostenibilidad.",
+                        "responsible_party": "Departamento de logística y reciclaje.",
+                        "expected_action": "Implementar un sistema de reciclaje más eficiente y accesible para las cápsulas."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Valorais mas a los nuevos socios que a a los que llevan tiempo con Nespresso"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Valorais mas a los nuevos socios que a a los que llevan tiempo con Nespresso",
+                    "semantic_conclusion": "Queja sobre la falta de valoración a los clientes leales.",
+                    "themes": [
+                        "Customer Loyalty",
+                        "New Customer Incentives"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar las políticas de fidelidad para valorar a los clientes leales."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Todavía no sé cuál es mi reward de aniversario, a pesar de haber realizado compras de cápsulas."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Todavía no sé cuál es mi reward de aniversario",
+                    "semantic_conclusion": "Falta de información sobre el premio de aniversario.",
+                    "themes": [
+                        "Rewards",
+                        "Loyalty Program"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Proporcionar información clara sobre los premios de aniversario."
+                    }
+                },
+                {
+                    "text": "a pesar de haber realizado compras de cápsulas",
+                    "semantic_conclusion": "Expectativa de recibir el premio de aniversario por realizar compras.",
+                    "themes": [
+                        "Customer Expectations",
+                        "Purchase History"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar la comunicación sobre los premios de aniversario."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Lamentable CRM con los clientes históricos. Lejos de disculparse, me proponen aumentar una compra cuando ya les he informado que abandono la marca"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Lamentable CRM con los clientes históricos",
+                    "semantic_conclusion": "Crítica al manejo de relaciones con clientes históricos.",
+                    "themes": [
+                        "Customer Relationship Management",
+                        "Loyalty Program"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y relaciones con clientes.",
+                        "expected_action": "Revisar y mejorar la estrategia de CRM para clientes históricos."
+                    }
+                },
+                {
+                    "text": "Lejos de disculparse, me proponen aumentar una compra cuando ya les he informado que abandono la marca",
+                    "semantic_conclusion": "Insatisfacción con la respuesta del servicio al cliente y falta de empatía.",
+                    "themes": [
+                        "Customer Service",
+                        "Issue Resolution"
+                    ],
+                    "sentiment": "negative",
+                    "category": "CRC - 08",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Capacitar al personal para ofrecer respuestas más empáticas y efectivas."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Me gustaría q hubiera mas promociones para los clientes fieles"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Me gustaría q hubiera mas promociones para los clientes fieles",
+                    "semantic_conclusion": "Sugerencia de mejorar las promociones para clientes fieles.",
+                    "themes": [
+                        "Customer Loyalty",
+                        "Promotions"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Insatisfacción del cliente con las promociones actuales.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar las promociones para clientes fieles."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "No veo ninguna razón para seguir siendo leal"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "No veo ninguna razón para seguir siendo leal",
+                    "semantic_conclusion": "Insatisfacción con la lealtad al programa de fidelidad.",
+                    "themes": [
+                        "Loyalty Program",
+                        "Customer Retention"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y fidelidad.",
+                        "expected_action": "Revisar y mejorar el programa de fidelidad para aumentar la lealtad del cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Si, se valoraria mucho que hubiera mas ofertas para buenos y fieles clientes ."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Si, se valoraria mucho que hubiera mas ofertas para buenos y fieles clientes .",
+                    "semantic_conclusion": "Sugerencia de mejorar las ofertas para clientes leales.",
+                    "themes": [
+                        "Customer Loyalty",
+                        "Promotions"
+                    ],
+                    "sentiment": "positive",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Mejorar la satisfacción y retención de clientes leales.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Crear y ofrecer promociones y ofertas atractivas para clientes leales."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "A pesar de ser cliente de Nespresso durante años, no recibo ningún trato especial. ¿Dónde está la lealtad? Vivo en Segovia y no tengo ninguna manera de reciclar las cápsulas. Eso no me gusta nada."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "Segovia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "A pesar de ser cliente de Nespresso durante años, no recibo ningún trato especial. ¿Dónde está la lealtad?",
+                    "semantic_conclusion": "Queja sobre la falta de reconocimiento a la lealtad del cliente.",
+                    "themes": [
+                        "Customer Loyalty",
+                        "Special Treatment"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar las políticas de lealtad del cliente."
+                    }
+                },
+                {
+                    "text": "Vivo en Segovia y no tengo ninguna manera de reciclar las cápsulas. Eso no me gusta nada.",
+                    "semantic_conclusion": "Queja sobre la falta de opciones de reciclaje en la zona de residencia.",
+                    "themes": [
+                        "Recycling",
+                        "Location"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Reciclaje - 0301",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y reciclaje.",
+                        "expected_action": "Ampliar las opciones de reciclaje en diferentes zonas geográficas."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Esperaba mejores beneficios como cliente de larga data en Nespresso, pero me siento ignorado. La demora en la comunicación con el servicio técnico ha afectado negativamente mi lealtad hacia la marca de café."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Esperaba mejores beneficios como cliente de larga data en Nespresso",
+                    "semantic_conclusion": "Insatisfacción con los beneficios ofrecidos a clientes leales.",
+                    "themes": [
+                        "Customer Loyalty",
+                        "Benefits"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar los beneficios para clientes leales."
+                    }
+                },
+                {
+                    "text": "pero me siento ignorado",
+                    "semantic_conclusion": "Sentimiento de desatención y falta de reconocimiento.",
+                    "themes": [
+                        "Customer Service",
+                        "Staff Interaction"
+                    ],
+                    "sentiment": "negative",
+                    "category": "CRC - 0808",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Mejorar la comunicación y atención al cliente."
+                    }
+                },
+                {
+                    "text": "La demora en la comunicación con el servicio técnico ha afectado negativamente mi lealtad hacia la marca de café",
+                    "semantic_conclusion": "Demora en la comunicación con el servicio técnico y su impacto en la lealtad del cliente.",
+                    "themes": [
+                        "Customer Support",
+                        "Issue Resolution"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Servicio Técnico - 0404",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de servicio técnico.",
+                        "expected_action": "Mejorar la comunicación y reducir los tiempos de respuesta."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tras 6 meses de suscripción y más de 120€ gastados en cápsulas valoraríamos que mandaran alguna cápsula de prueba de nuevos sabores etc."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tras 6 meses de suscripción y más de 120€ gastados en cápsulas valoraríamos que mandaran alguna cápsula de prueba de nuevos sabores etc.",
+                    "semantic_conclusion": "Sugerencia de enviar muestras de nuevos sabores a clientes leales.",
+                    "themes": [
+                        "Customer Loyalty",
+                        "Product Sampling"
+                    ],
+                    "sentiment": "positive",
+                    "category": "Mkt & Promociones - 0204",
+                    "details": {
+                        "impact": "Mejora en la satisfacción del cliente y fidelidad.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Considerar la implementación de un programa de muestras para clientes leales."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tengo una suscripción que debo hacer un pedido mensual y este mes de enero falló, hice el pedido de cafés y me cobraron el importe del pedido más el importe de la suscripción, no me lo descontaron y tuve que llamar por telefono"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tengo una suscripción que debo hacer un pedido mensual y este mes de enero falló",
+                    "semantic_conclusion": "Problema con la suscripción mensual.",
+                    "themes": [
+                        "Suscripción",
+                        "Pedido mensual"
+                    ],
+                    "sentiment": "negative",
+                    "category": "0205",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de suscripciones.",
+                        "expected_action": "Revisar y corregir el problema con la suscripción."
+                    }
+                },
+                {
+                    "text": "hice el pedido de cafés y me cobraron el importe del pedido más el importe de la suscripción",
+                    "semantic_conclusion": "Cobro incorrecto por la suscripción.",
+                    "themes": [
+                        "Cobro",
+                        "Suscripción"
+                    ],
+                    "sentiment": "negative",
+                    "category": "0202",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de facturación.",
+                        "expected_action": "Revisar y corregir el cobro incorrecto."
+                    }
+                },
+                {
+                    "text": "no me lo descontaron y tuve que llamar por telefono",
+                    "semantic_conclusion": "Falta de descuento y necesidad de contacto adicional.",
+                    "themes": [
+                        "Descuento",
+                        "Contacto adicional"
+                    ],
+                    "sentiment": "negative",
+                    "category": "0202",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Mejorar la comunicación y el proceso de descuento."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tengo un problema en mi cuenta de suscripción, lo he comunicado y casi un mes después está todo igual. Nadie se ha puesto en contacto conmigo y mi cuenta está bloqueada. No estoy nada contenta con el servicio postventa."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tengo un problema en mi cuenta de suscripción",
+                    "semantic_conclusion": "Problema con la cuenta de suscripción.",
+                    "themes": [
+                        "Subscription Service",
+                        "Account Issue"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Resolución del problema y comunicación con el cliente."
+                    }
+                },
+                {
+                    "text": "lo he comunicado y casi un mes después está todo igual",
+                    "semantic_conclusion": "Falta de respuesta y resolución del problema.",
+                    "themes": [
+                        "Customer Support",
+                        "Issue Resolution"
+                    ],
+                    "sentiment": "negative",
+                    "category": "CRC - 04",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Mejorar la comunicación y resolución de problemas."
+                    }
+                },
+                {
+                    "text": "Nadie se ha puesto en contacto conmigo",
+                    "semantic_conclusion": "Falta de comunicación con el cliente.",
+                    "themes": [
+                        "Customer Communication",
+                        "Lack of Response"
+                    ],
+                    "sentiment": "negative",
+                    "category": "CRC - 04",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Mejorar la comunicación con el cliente."
+                    }
+                },
+                {
+                    "text": "y mi cuenta está bloqueada",
+                    "semantic_conclusion": "Cuenta bloqueada sin resolución.",
+                    "themes": [
+                        "Account Status",
+                        "Blockage"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 02",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Resolución del problema y desbloqueo de la cuenta."
+                    }
+                },
+                {
+                    "text": "No estoy nada contenta con el servicio postventa",
+                    "semantic_conclusion": "Insatisfacción con el servicio postventa.",
+                    "themes": [
+                        "After-Sales Service",
+                        "Dissatisfaction"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Otros Negativos - 00",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Mejorar el servicio postventa y la comunicación con el cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "El proceso para modificar el plan de suscripción es tedioso y consume mucho tiempo."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "El proceso para modificar el plan de suscripción es tedioso y consume mucho tiempo.",
+                    "semantic_conclusion": "Queja sobre la complejidad y el tiempo requerido para modificar el plan de suscripción.",
+                    "themes": [
+                        "Suscripción",
+                        "Proceso de modificación"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0205",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y desarrollo de productos.",
+                        "expected_action": "Simplificar y agilizar el proceso de modificación del plan de suscripción."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Los descuentos para suscriptores son mínimos; no vale la pena el compromiso a largo plazo."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Los descuentos para suscriptores son mínimos",
+                    "semantic_conclusion": "Insatisfacción con los descuentos ofrecidos a los suscriptores.",
+                    "themes": [
+                        "Descuentos",
+                        "Suscripción"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar los descuentos para suscriptores."
+                    }
+                },
+                {
+                    "text": "no vale la pena el compromiso a largo plazo",
+                    "semantic_conclusion": "Insatisfacción con el compromiso a largo plazo de la suscripción.",
+                    "themes": [
+                        "Compromiso",
+                        "Suscripción"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Revisar y mejorar los términos y condiciones de la suscripción."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Las cápsulas exclusivas para suscriptores no son tan especiales como se prometió."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Las cápsulas exclusivas para suscriptores no son tan especiales como se prometió.",
+                    "semantic_conclusion": "Decepción con las cápsulas exclusivas para suscriptores.",
+                    "themes": [
+                        "Product Quality",
+                        "Subscription Benefits"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0205",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y promociones.",
+                        "expected_action": "Reevaluar y mejorar las ofertas exclusivas para suscriptores."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "La suscripción que tenemos no nos satisface del todo."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "La suscripción que tenemos no nos satisface del todo.",
+                    "semantic_conclusion": "Insatisfacción con la suscripción actual.",
+                    "themes": [
+                        "Subscription Service",
+                        "Customer Satisfaction"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0205",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de suscripciones y marketing.",
+                        "expected_action": "Revisar y mejorar la oferta de suscripción para aumentar la satisfacción del cliente."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Hice una suscripción al comprar una máquina, pero ahora, al intentar usarla, la máquina no funciona. He contactado a Nespresso para solucionar el problema, pero hasta ahora no he recibido ninguna respuesta efectiva."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Hice una suscripción al comprar una máquina, pero ahora, al intentar usarla, la máquina no funciona.",
+                    "semantic_conclusion": "Problema con la máquina de café después de la compra y suscripción.",
+                    "themes": [
+                        "Product Malfunction",
+                        "Subscription Issue"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0207",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y soporte técnico.",
+                        "expected_action": "Reparación o reemplazo de la máquina y resolución del problema de suscripción."
+                    }
+                },
+                {
+                    "text": "He contactado a Nespresso para solucionar el problema, pero hasta ahora no he recibido ninguna respuesta efectiva.",
+                    "semantic_conclusion": "Falta de respuesta efectiva del servicio de atención al cliente.",
+                    "themes": [
+                        "Customer Support",
+                        "Lack of Response"
+                    ],
+                    "sentiment": "negative",
+                    "category": "CRC - 0808",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente.",
+                        "expected_action": "Mejorar la comunicación y respuesta a los clientes."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "La facturación del plan de suscripción es un caos. No se corresponden con lo acordado."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "La facturación del plan de suscripción es un caos.",
+                    "semantic_conclusion": "Queja sobre la facturación del plan de suscripción.",
+                    "themes": [
+                        "Billing Issues",
+                        "Subscription Plan"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de facturación y suscripciones.",
+                        "expected_action": "Revisar y corregir la facturación para que se corresponda con lo acordado."
+                    }
+                },
+                {
+                    "text": "No se corresponden con lo acordado.",
+                    "semantic_conclusion": "Inconformidad con los términos acordados del plan de suscripción.",
+                    "themes": [
+                        "Contractual Issues",
+                        "Subscription Terms"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de atención al cliente y ventas.",
+                        "expected_action": "Revisar y corregir los términos del plan de suscripción para que se ajusten a lo acordado."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "No puedo confiar en el plan de suscripción. Siempre hay errores en la facturación."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "No puedo confiar en el plan de suscripción",
+                    "semantic_conclusion": "Falta de confianza en el plan de suscripción debido a errores en la facturación.",
+                    "themes": [
+                        "Subscription Plan",
+                        "Billing Issues"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0205",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de suscripciones y facturación.",
+                        "expected_action": "Revisar y corregir los errores en la facturación para mejorar la confianza del cliente."
+                    }
+                },
+                {
+                    "text": "Siempre hay errores en la facturación",
+                    "semantic_conclusion": "Problemas recurrentes con errores en la facturación.",
+                    "themes": [
+                        "Billing Errors",
+                        "Recurring Issues"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0202",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de facturación y finanzas.",
+                        "expected_action": "Implementar medidas para prevenir errores en la facturación y mejorar la precisión."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Últimamente, Nespresso ha estado haciendo cambios constantes en sus cafés afectando a su calidad."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Últimamente, Nespresso ha estado haciendo cambios constantes en sus cafés afectando a su calidad.",
+                    "semantic_conclusion": "Cambio en la calidad del café debido a modificaciones en la fórmula o proceso de producción.",
+                    "themes": [
+                        "Product Quality",
+                        "Changes in Product"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0206",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de investigación y desarrollo.",
+                        "expected_action": "Revisar y ajustar los cambios para mejorar la calidad del café."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tienen que mejorar la calidad y la variedad de los descafeinados."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tienen que mejorar la calidad y la variedad de los descafeinados.",
+                    "semantic_conclusion": "Queja sobre la calidad y variedad de los productos descafeinados.",
+                    "themes": [
+                        "Product Quality",
+                        "Product Variety"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0206",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de productos y desarrollo.",
+                        "expected_action": "Revisar y mejorar la calidad y variedad de los productos descafeinados."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tengo una cafetera Vertuo y me gustaría tener más opciones de descafeinados de doble espresso."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tengo una cafetera Vertuo y me gustaría tener más opciones de descafeinados de doble espresso.",
+                    "semantic_conclusion": "Solicitud de más opciones de descafeinados de doble espresso para la cafetera Vertuo.",
+                    "themes": [
+                        "Product Variety",
+                        "Customer Request"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0206",
+                    "details": {
+                        "impact": "Insatisfacción del cliente con la variedad actual de productos.",
+                        "responsible_party": "Departamento de productos y desarrollo.",
+                        "expected_action": "Considerar la solicitud del cliente y evaluar la posibilidad de agregar más opciones de descafeinados de doble espresso."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tengo problemas para entender por qué algunas cápsulas que siempre pedía han desaparecido de mis pedidos anteriores sin previo aviso."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tengo problemas para entender por qué algunas cápsulas que siempre pedía han desaparecido de mis pedidos anteriores sin previo aviso.",
+                    "semantic_conclusion": "Confusión y decepción por la falta de disponibilidad de productos habituales en los pedidos.",
+                    "themes": [
+                        "Product Availability",
+                        "Customer Expectations"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0206",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de gestión de productos y logística.",
+                        "expected_action": "Mejorar la comunicación sobre cambios en la disponibilidad de productos y ofrecer alternativas adecuadas."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Tengo la impresión de que el café de Nespresso cada vez es más suave y no me gusta."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Tengo la impresión de que el café de Nespresso cada vez es más suave y no me gusta.",
+                    "semantic_conclusion": "Insatisfacción con el sabor del café de Nespresso.",
+                    "themes": [
+                        "Product Quality",
+                        "Taste"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0206",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de calidad del producto.",
+                        "expected_action": "Revisar y mejorar la calidad del café."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Nunca tienen café fresco en existencia."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Nunca tienen café fresco en existencia.",
+                    "semantic_conclusion": "Queja sobre la falta de café fresco en existencia.",
+                    "themes": [
+                        "Product Availability",
+                        "Freshness"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0206",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de logística y abastecimiento.",
+                        "expected_action": "Mejorar la gestión de inventario y abastecimiento de café fresco."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Han eliminado algunos cafés que no eran de edición limitada…"
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Han eliminado algunos cafés que no eran de edición limitada…",
+                    "semantic_conclusion": "Queja sobre la eliminación de productos que no eran de edición limitada.",
+                    "themes": [
+                        "Product Availability",
+                        "Customer Dissatisfaction"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0206",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de productos y marketing.",
+                        "expected_action": "Reconsiderar la eliminación de productos populares y comunicar cambios a los clientes."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "Mi valoración tiene que ver con el producto que compré, el de cacao y vainilla, me decepcionaron... no noté ningún sabor y mucho menos una diferencia."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "Mi valoración tiene que ver con el producto que compré, el de cacao y vainilla, me decepcionaron... no noté ningún sabor y mucho menos una diferencia.",
+                    "semantic_conclusion": "Evaluación negativa del producto debido a la falta de sabor y diferencia esperada.",
+                    "themes": [
+                        "Product Quality",
+                        "Taste and Flavor"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0206",
+                    "details": {
+                        "impact": "Baja satisfacción del cliente.",
+                        "responsible_party": "Departamento de productos y desarrollo.",
+                        "expected_action": "Revisar y mejorar la formulación del producto para cumplir con las expectativas de sabor y calidad."
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "VERBATIM": [
+            "he enfrentado dificultades para comprar las ediciones especiales de Vertuo, como los sabores de pastel de calabaza y galleta de jengibre."
+        ],
+        "PREDICCION": {
+            "context": {
+                "location": "a distancia",
+                "channel_of_communication": "telefónico",
+                "additional_info": {
+                    "customer_id": "optional_customer_identifier",
+                    "order_id": "optional_order_identifier"
+                }
+            },
+            "units": [
+                {
+                    "text": "he enfrentado dificultades para comprar las ediciones especiales de Vertuo, como los sabores de pastel de calabaza y galleta de jengibre.",
+                    "semantic_conclusion": "Dificultades para adquirir ediciones especiales de Vertuo.",
+                    "themes": [
+                        "Product Availability",
+                        "Purchase Experience"
+                    ],
+                    "sentiment": "negative",
+                    "category": "Mkt & Promociones - 0206",
+                    "details": {
+                        "impact": "Insatisfacción del cliente.",
+                        "responsible_party": "Departamento de marketing y ventas.",
+                        "expected_action": "Mejorar la disponibilidad de ediciones especiales y comunicar mejor las ofertas."
+                    }
+                }
+            ]
+        }
+    }
+]
